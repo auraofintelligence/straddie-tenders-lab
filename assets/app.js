@@ -19,6 +19,19 @@ const footerHtml = `
   <p>Straddie Tenders Lab. A public research workbench for tender readiness, not legal or procurement advice.</p>
   <p><a href="https://auraofintelligence.github.io/stradbroke-grants-lab/">Stradbroke Grants Lab</a> | <a href="https://auraofintelligence.github.io/strange-but-true/community-ledger.html">Community Ledger</a> | <a href="network.html">Companion network</a></p>`;
 
+const pageSequence = [
+  { file: "index.html", label: "Home" },
+  { file: "tender-sources.html", label: "Sources" },
+  { file: "tender-watchlist.html", label: "Watchlist" },
+  { file: "council-tenders.html", label: "Council" },
+  { file: "queensland-tenders.html", label: "Queensland" },
+  { file: "australian-tenders.html", label: "Australian" },
+  { file: "first-nations-procurement.html", label: "First Nations" },
+  { file: "keyword-search.html", label: "Keyword Search" },
+  { file: "bid-readiness.html", label: "Bid Readiness" },
+  { file: "network.html", label: "Network" },
+];
+
 document.querySelectorAll(".site-header").forEach((header) => {
   if (!header.children.length) header.innerHTML = navHtml;
 });
@@ -39,6 +52,25 @@ const currentFile = window.location.pathname.split("/").pop() || "index.html";
 document.querySelectorAll(".nav-links a").forEach((link) => {
   if (link.getAttribute("href") === currentFile) link.setAttribute("aria-current", "page");
 });
+
+function renderFooterPageNav() {
+  const currentIndex = pageSequence.findIndex((page) => page.file === currentFile);
+  if (currentIndex < 0) return;
+  const previous = pageSequence[currentIndex - 1];
+  const next = pageSequence[currentIndex + 1];
+  const previousControl = previous
+    ? `<a class="page-step page-step-prev" href="${previous.file}"><span>Previous</span><strong>&larr; ${escapeHtml(previous.label)}</strong></a>`
+    : `<span class="page-step page-step-disabled"><span>Previous</span><strong>Start</strong></span>`;
+  const nextControl = next
+    ? `<a class="page-step page-step-next" href="${next.file}"><span>Next</span><strong>${escapeHtml(next.label)} &rarr;</strong></a>`
+    : `<span class="page-step page-step-disabled"><span>Next</span><strong>End</strong></span>`;
+  const markup = `<nav class="footer-page-nav" aria-label="Previous and next pages">${previousControl}${nextControl}</nav>`;
+  document.querySelectorAll(".site-footer").forEach((footer) => {
+    if (!footer.querySelector(".footer-page-nav")) footer.insertAdjacentHTML("afterbegin", markup);
+  });
+}
+
+renderFooterPageNav();
 
 const topButton = document.querySelector("[data-to-top]");
 if (topButton) {
