@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Keyword search lanes and structured tender timeline data for weekly Straddie tender monitoring.">
+    <title>Keyword Search | Straddie Tenders Lab</title>
+    <link rel="preload" as="image" href="assets/heroes/hero-watchlist.webp" imagesrcset="assets/heroes/hero-watchlist-sm.webp 960w, assets/heroes/hero-watchlist.webp 1600w" imagesizes="100vw">
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  </head>
+  <body data-page="keyword-search">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header"></header>
+    <main id="main">
+      <section class="site-hero hero-watchlist">
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <h1 class="long-title">Search by place, work type and pipeline need.</h1>
+            <p class="hero-lede">A weekly agent can use these keyword lanes to scan official tender sources, update the timeline data, and leave clean records for other pipelines.</p>
+            <div class="hero-actions">
+              <a class="button primary" href="profiles/templates/weekly-tender-search-agent.md">Open weekly agent brief</a>
+              <a class="button secondary" href="data/tender-timeline.json">Open timeline JSON</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section split">
+        <div>
+          <div class="section-heading">
+            <h2>Keyword search lanes.</h2>
+            <p>These lanes keep searches repeatable. The agent should search official portals first, then update only source-backed records.</p>
+          </div>
+          <div id="keywordSearchGrid" class="data-grid"></div>
+        </div>
+        <aside id="pipelineMeta"></aside>
+      </section>
+      <section class="section">
+        <div class="section-heading">
+          <h2>Tender timeline data.</h2>
+          <p>This section is intentionally structured for reuse. Other pipelines can read `data/tender-timeline.json` without scraping the page.</p>
+        </div>
+        <div id="timelineGrid" class="data-grid"></div>
+      </section>
+    </main>
+    <footer class="site-footer"></footer>
+    <button class="to-top" type="button" data-to-top aria-label="Back to top">Top</button>
+    <script src="assets/data.js"></script>
+    <script src="assets/app.js"></script>
+  </body>
+</html>

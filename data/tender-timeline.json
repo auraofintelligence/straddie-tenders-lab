@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-07-04",
+  "next_scan_due": "2026-07-06",
+  "scan_cadence": "weekly",
+  "pipeline_contract": {
+    "name": "straddie-tender-timeline-v1",
+    "description": "Pipeline-readable tender and procurement records for Straddie-connected opportunities. Records must be source-backed, dated, and tagged for downstream grants, ledger, events, resilience, digital twin, Mineral Moonshots and Civilisation of Sand pipelines.",
+    "primary_file": "data/tender-timeline.json",
+    "keyword_file": "data/tender-keywords.json",
+    "update_rule": "Add or update records only from official source pages or official tender portals. Use tbc for uncertain dates. Do not infer an open tender from a policy page, media release, strategy page or old awarded contract."
+  },
+  "records": [
+    {
+      "id": "redland-weekly-source-watch",
+      "title": "Redland City Council tender source watch",
+      "level": "council",
+      "level_label": "Redland City Council",
+      "status": "source-watch",
+      "source_key": "redland-current-upcoming",
+      "open_date": "tbc",
+      "close_date": "tbc",
+      "last_checked": "2026-07-04",
+      "summary": "Weekly check lane for current and upcoming Redland City Council tenders, VendorPanel pathways and awarded contract learning.",
+      "pipeline_tags": ["grants", "ledger", "events", "noticeboard", "resilience"],
+      "next_action": "Search place and service terms, then add a new timeline record only when an official opportunity is open, upcoming or newly awarded."
+    },
+    {
+      "id": "qld-weekly-source-watch",
+      "title": "Queensland Government tender source watch",
+      "level": "queensland",
+      "level_label": "Queensland Government",
+      "status": "source-watch",
+      "source_key": "qtenders",
+      "open_date": "tbc",
+      "close_date": "tbc",
+      "last_checked": "2026-07-04",
+      "summary": "Weekly QTenders and Queensland supplier search lane for Minjerribah, Redland, transport, tourism, environment, resilience, digital and community service terms.",
+      "pipeline_tags": ["digital-twin", "civilisation-of-sand", "resilience", "events", "mineral-moonshots"],
+      "next_action": "Search QTenders and related Queensland procurement guidance. Record only official opportunity links and dates."
+    },
+    {
+      "id": "austender-weekly-source-watch",
+      "title": "Australian Government tender source watch",
+      "level": "australian",
+      "level_label": "Australian Government",
+      "status": "source-watch",
+      "source_key": "austender-current-atm",
+      "open_date": "tbc",
+      "close_date": "tbc",
+      "last_checked": "2026-07-04",
+      "summary": "Weekly AusTender lane for federal opportunities and panels that could matter to local suppliers, partners or capability-building pipelines.",
+      "pipeline_tags": ["grants", "ledger", "resilience", "digital-twin", "aura"],
+      "next_action": "Search current approaches to market, planned procurements and contract notices. Keep federal leads separate from grants."
+    },
+    {
+      "id": "first-nations-procurement-source-watch",
+      "title": "First Nations procurement and partnership watch",
+      "level": "first-nations",
+      "level_label": "First Nations procurement",
+      "status": "source-watch",
+      "source_key": "niaa-indigenous-procurement",
+      "open_date": "tbc",
+      "close_date": "tbc",
+      "last_checked": "2026-07-04",
+      "summary": "Policy and opportunity watch for Indigenous procurement settings, First Nations business participation and permission-sensitive partnership readiness.",
+      "pipeline_tags": ["ledger", "grants", "events", "resilience", "mineral-moonshots"],
+      "next_action": "Check official policy and live tender records, then verify ownership, authority, eligibility and permission boundaries before any pipeline acts."
+    }
+  ]
+}

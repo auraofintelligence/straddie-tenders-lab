@@ -285,6 +285,22 @@ p { margin: 0; }
   background: var(--mist);
   border-color: var(--teal);
 }
+.keyword-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 1rem;
+}
+.keyword-pill {
+  background: rgba(138, 216, 207, 0.22);
+  border: 1px solid rgba(8, 125, 128, 0.22);
+  border-radius: 999px;
+  color: var(--deep);
+  font-family: var(--heading);
+  font-size: 0.78rem;
+  font-weight: 900;
+  padding: 0.38rem 0.58rem;
+}
 .source-filter {
   display: flex;
   flex-wrap: wrap;

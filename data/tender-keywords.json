@@ -1,0 +1,70 @@
+{
+  "updated_at": "2026-07-04",
+  "search_lanes": [
+    {
+      "title": "Council local works and services",
+      "source_key": "redland-current-upcoming",
+      "level": "council",
+      "level_label": "Redland City Council",
+      "cadence": "weekly",
+      "pipeline_key": "local-civic-procurement",
+      "intent": "Find Redland City Council tenders and quote pathways that could involve island suppliers, community infrastructure, facilities, transport, events or digital support.",
+      "place_terms": ["North Stradbroke Island", "Minjerribah", "Dunwich", "Gumpi", "Amity", "Point Lookout", "Redland"],
+      "domain_terms": ["works", "maintenance", "facilities", "events", "tourism", "community", "digital", "communications", "waste", "transport"],
+      "pipeline_terms": ["grants", "ledger", "events", "noticeboard", "resilience"],
+      "search_url": "https://www.redland.qld.gov.au/Business-and-investment/Doing-business-with-Council/Current-and-upcoming-tenders"
+    },
+    {
+      "title": "Queensland state tenders and forward procurement",
+      "source_key": "qtenders",
+      "level": "queensland",
+      "level_label": "Queensland Government",
+      "cadence": "weekly",
+      "pipeline_key": "state-procurement-watch",
+      "intent": "Find Queensland Government opportunities connected to Minjerribah, Redlands, transport, tourism, protected areas, resilience, housing, digital inclusion and public services.",
+      "place_terms": ["Minjerribah", "North Stradbroke", "Quandamooka", "Redland", "Moreton Bay", "Gumpi"],
+      "domain_terms": ["tourism", "ranger", "protected area", "conservation", "ferry", "transport", "resilience", "housing", "digital", "health", "community services"],
+      "pipeline_terms": ["digital-twin", "civilisation-of-sand", "resilience", "events", "mineral-moonshots"],
+      "search_url": "https://qtenders.hpw.qld.gov.au/"
+    },
+    {
+      "title": "Australian Government tenders and panels",
+      "source_key": "austender-current-atm",
+      "level": "australian",
+      "level_label": "Australian Government",
+      "cadence": "weekly",
+      "pipeline_key": "federal-procurement-watch",
+      "intent": "Find federal opportunities where a local supplier, partner or pipeline could realistically fit or learn from the market.",
+      "place_terms": ["Queensland", "Redland", "North Stradbroke", "Minjerribah", "Indigenous", "regional"],
+      "domain_terms": ["health", "disability", "aged care", "environment", "digital inclusion", "disaster", "tourism", "community", "research", "training"],
+      "pipeline_terms": ["grants", "ledger", "resilience", "digital-twin", "aura"],
+      "search_url": "https://www.tenders.gov.au/atm"
+    },
+    {
+      "title": "First Nations procurement and Indigenous business pathways",
+      "source_key": "niaa-indigenous-procurement",
+      "level": "first-nations",
+      "level_label": "First Nations procurement",
+      "cadence": "weekly",
+      "pipeline_key": "first-nations-procurement-readiness",
+      "intent": "Track procurement policy and tender records where First Nations ownership, partnership, capability or supplier directories matter.",
+      "place_terms": ["Quandamooka", "Minjerribah", "North Stradbroke", "Aboriginal", "Torres Strait Islander", "First Nations"],
+      "domain_terms": ["Indigenous Procurement Policy", "Aboriginal business", "cultural heritage", "Country", "ranger", "tourism", "community controlled", "capacity building"],
+      "pipeline_terms": ["ledger", "grants", "events", "resilience", "mineral-moonshots"],
+      "search_url": "https://www.niaa.gov.au/our-work/employment-and-economic-development/indigenous-procurement-policies-jurisdiction"
+    },
+    {
+      "title": "Awarded contracts and pattern learning",
+      "source_key": "austender",
+      "level": "all",
+      "level_label": "Cross-government",
+      "cadence": "monthly",
+      "pipeline_key": "market-pattern-learning",
+      "intent": "Read awarded and closed contracts to learn what buyers purchase, which categories repeat, and where local capability could be built before the next round.",
+      "place_terms": ["Redland", "Queensland", "regional", "island", "coastal", "Indigenous"],
+      "domain_terms": ["contract notice", "awarded", "standing offer", "panel", "supplier", "category", "consultancy", "works", "services"],
+      "pipeline_terms": ["grants", "ledger", "mineral-moonshots", "civilisation-of-sand", "aura"],
+      "search_url": "https://www.tenders.gov.au/Cn"
+    }
+  ]
+}

@@ -63,6 +63,46 @@ def validate_watchlist(source_keys: set[str]) -> None:
             fail(f"Watchlist item needs keyword list: {item['title']}")
 
 
+def validate_keyword_search(source_keys: set[str]) -> None:
+    keywords = read_json("data/tender-keywords.json")
+    lanes = keywords.get("search_lanes")
+    if not isinstance(lanes, list) or not lanes:
+        fail("data/tender-keywords.json needs search_lanes")
+    require_fields(
+        "data/tender-keywords.json",
+        lanes,
+        ["title", "source_key", "level", "level_label", "cadence", "pipeline_key", "intent", "search_url"],
+    )
+    for lane in lanes:
+        if lane["source_key"] not in source_keys:
+            fail(f"Keyword lane references unknown source_key: {lane['source_key']}")
+        for key in ["place_terms", "domain_terms", "pipeline_terms"]:
+            if not isinstance(lane.get(key), list) or not lane[key]:
+                fail(f"Keyword lane {lane['title']} needs {key}")
+
+
+def validate_timeline(source_keys: set[str]) -> None:
+    timeline = read_json("data/tender-timeline.json")
+    if not timeline.get("pipeline_contract"):
+        fail("data/tender-timeline.json needs pipeline_contract")
+    records = timeline.get("records")
+    if not isinstance(records, list) or not records:
+        fail("data/tender-timeline.json needs records")
+    require_fields(
+        "data/tender-timeline.json",
+        records,
+        ["id", "title", "level", "level_label", "status", "source_key", "last_checked", "summary", "next_action"],
+    )
+    record_ids = [item["id"] for item in records]
+    if len(record_ids) != len(set(record_ids)):
+        fail("data/tender-timeline.json record ids must be unique")
+    for record in records:
+        if record["source_key"] not in source_keys:
+            fail(f"Timeline record references unknown source_key: {record['source_key']}")
+        if not isinstance(record.get("pipeline_tags"), list) or not record["pipeline_tags"]:
+            fail(f"Timeline record needs pipeline_tags: {record['id']}")
+
+
 def validate_checklists() -> None:
     checklists = read_json("data/checklists.json")
     for key in ["readiness_steps", "capability_statement", "response_checks", "stop_signs"]:
@@ -89,6 +129,7 @@ def validate_local_links() -> None:
         "queensland-tenders.html",
         "australian-tenders.html",
         "first-nations-procurement.html",
+        "keyword-search.html",
         "bid-readiness.html",
         "network.html",
     ]
@@ -121,6 +162,8 @@ def validate_heroes() -> None:
 def main() -> None:
     source_keys = validate_sources()
     validate_watchlist(source_keys)
+    validate_keyword_search(source_keys)
+    validate_timeline(source_keys)
     validate_checklists()
     validate_network()
     validate_local_links()

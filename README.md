@@ -6,6 +6,8 @@ This sits beside the Stradbroke Grants Lab. Grants are funding programs. Tenders
 
 ## Local Preview
 
+You can double-click `index.html` for a simple local view. For the most accurate browser preview, use the tiny Python server below.
+
 From this folder:
 
 ```powershell
@@ -27,6 +29,7 @@ http://localhost:4188/
 - `queensland-tenders.html`: QTenders, eTender, supplier portal and Queensland procurement policy lane.
 - `australian-tenders.html`: AusTender and federal supplier lane.
 - `first-nations-procurement.html`: Indigenous procurement, cultural authority and partnership-readiness lane.
+- `keyword-search.html`: repeatable keyword search lanes and structured tender timeline data for weekly agent refreshes.
 - `bid-readiness.html`: plain-English readiness steps, capability statement prompts and response checks.
 - `network.html`: reciprocal project map for grants, ledger, Mineral Moonshots, Civilisation of Sand and related Straddie labs.
 
@@ -34,6 +37,8 @@ http://localhost:4188/
 
 - `data/sources.json`: official tender, procurement and place-context sources.
 - `data/watchlist.json`: source watches and keyword routes.
+- `data/tender-keywords.json`: weekly search lanes by source, place terms, work-type terms and downstream pipeline tags.
+- `data/tender-timeline.json`: pipeline-readable tender/timeline records updated by the weekly scan.
 - `data/checklists.json`: bid-readiness steps and response checks.
 - `data/network.json`: companion repo links and why each one matters.
 
@@ -57,6 +62,10 @@ python tools/validate_data.py
 ```
 
 The validation checks required JSON fields, local links and hero assets.
+
+## Weekly Tender Search
+
+Use `profiles/templates/weekly-tender-search-agent.md` as the agent brief for a weekly refresh. The refresh should update `data/tender-keywords.json` only when the search strategy changes, and update `data/tender-timeline.json` with source-backed opportunity records for downstream pipelines.
 
 ## Public Boundary
 

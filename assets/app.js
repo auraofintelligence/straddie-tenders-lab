@@ -9,6 +9,7 @@ const navHtml = `
       <a href="queensland-tenders.html">Queensland</a>
       <a href="australian-tenders.html">Australian</a>
       <a href="first-nations-procurement.html">First Nations</a>
+      <a href="keyword-search.html">Keyword Search</a>
       <a href="bid-readiness.html">Bid Readiness</a>
       <a href="network.html">Network</a>
     </div>
@@ -48,9 +49,17 @@ if (topButton) {
 }
 
 async function loadJson(path) {
-  const response = await fetch(path);
-  if (!response.ok) throw new Error(`Could not load ${path}`);
-  return response.json();
+  const embedded = window.STRADDIE_TENDERS_DATA && window.STRADDIE_TENDERS_DATA[path];
+  if (window.location.protocol === "file:" && embedded) return embedded;
+  try {
+    const response = await fetch(path);
+    if (response.ok) return response.json();
+    if (embedded) return embedded;
+    throw new Error(`Could not load ${path}`);
+  } catch (error) {
+    if (embedded) return embedded;
+    throw error;
+  }
 }
 
 function escapeHtml(value) {
@@ -182,6 +191,63 @@ async function renderReadiness() {
   });
 }
 
+function keywordPill(text) {
+  return `<span class="keyword-pill">${escapeHtml(text)}</span>`;
+}
+
+async function renderKeywordSearch() {
+  const [keywords, timeline, sources] = await Promise.all([
+    loadJson("data/tender-keywords.json"),
+    loadJson("data/tender-timeline.json"),
+    loadJson("data/sources.json"),
+  ]);
+  const sourceByKey = Object.fromEntries(sources.map((item) => [item.key, item]));
+  const searchGrid = document.querySelector("#keywordSearchGrid");
+  const timelineGrid = document.querySelector("#timelineGrid");
+  const pipelineMeta = document.querySelector("#pipelineMeta");
+  if (searchGrid) {
+    searchGrid.innerHTML = keywords.search_lanes.map((lane) => {
+      const source = sourceByKey[lane.source_key];
+      const terms = [...lane.place_terms, ...lane.domain_terms, ...lane.pipeline_terms];
+      return `
+        <article class="data-card">
+          <p class="tag">${escapeHtml(lane.level_label)}</p>
+          <h3>${escapeHtml(lane.title)}</h3>
+          <p>${escapeHtml(lane.intent)}</p>
+          <div class="keyword-cloud">${terms.map(keywordPill).join("")}</div>
+          <p class="meta">Cadence: ${escapeHtml(lane.cadence)} | Pipeline: ${escapeHtml(lane.pipeline_key)}</p>
+          ${actionLinks([
+            { label: "Open official source", url: source && source.url },
+            { label: "Open prepared search", url: lane.search_url },
+          ])}
+        </article>`;
+    }).join("");
+  }
+  if (timelineGrid) {
+    timelineGrid.innerHTML = timeline.records.map((record) => {
+      const source = sourceByKey[record.source_key];
+      return `
+        <article class="data-card">
+          <p class="tag">${escapeHtml(record.status)}</p>
+          <h3>${escapeHtml(record.title)}</h3>
+          <p>${escapeHtml(record.summary)}</p>
+          <p class="meta">Level: ${escapeHtml(record.level_label)} | Close: ${escapeHtml(record.close_date || "tbc")} | Checked: ${escapeHtml(record.last_checked)}</p>
+          <p class="meta">Pipeline tags: ${escapeHtml(record.pipeline_tags.join(", "))}</p>
+          ${actionLinks([{ label: "Open source", url: source && source.url }])}
+        </article>`;
+    }).join("");
+  }
+  if (pipelineMeta) {
+    pipelineMeta.innerHTML = `
+      <article class="note-panel">
+        <p class="section-label">Pipeline handoff</p>
+        <h3>${escapeHtml(timeline.pipeline_contract.name)}</h3>
+        <p>${escapeHtml(timeline.pipeline_contract.description)}</p>
+        <p class="meta">Updated: ${escapeHtml(timeline.generated_at)} | Next scan: ${escapeHtml(timeline.next_scan_due)}</p>
+      </article>`;
+  }
+}
+
 async function renderNetwork() {
   const network = await loadJson("data/network.json");
   const grid = document.querySelector("#networkGrid");
@@ -194,11 +260,12 @@ async function boot() {
     if (page === "home") await renderHome();
     if (page === "sources" || page === "source-level") await renderSources();
     if (page === "watchlist") await renderWatchlist();
+    if (page === "keyword-search") await renderKeywordSearch();
     if (page === "readiness") await renderReadiness();
     if (page === "network") await renderNetwork();
   } catch (error) {
     const main = document.querySelector("main");
-    if (main) main.insertAdjacentHTML("beforeend", `<p class="load-error">${escapeHtml(error.message)}. If you opened the file directly, run a local server first.</p>`);
+    if (main) main.insertAdjacentHTML("beforeend", `<p class="load-error">${escapeHtml(error.message)}. This page normally loads from the embedded data fallback when opened from a folder. If it still fails, run the local preview from README.md.</p>`);
   }
 }
 
