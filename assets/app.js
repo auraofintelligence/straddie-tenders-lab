@@ -166,7 +166,7 @@ async function renderHome() {
   if (stats) {
     stats.innerHTML = [
       ["Source surfaces", sources.length, "Official tender, policy and place-context links."],
-      ["Watch lanes", watchlist.length, "Calm search routes instead of panic-refreshing everything."],
+      ["Watch lanes", watchlist.length, "Calm search routes, source checks and awarded-contract learning habits."],
       ["Companion repos", network.length, "Grants, ledger, moonshots, sand and Straddie systems."],
     ].map(([title, count, body]) => `<article class="mini-card"><p class="tag">${count}</p><h3>${title}</h3><p>${body}</p></article>`).join("");
   }
