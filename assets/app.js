@@ -217,7 +217,7 @@ async function renderReadiness() {
         <p>${escapeHtml(step.body)}</p>
       </article>`).join("");
   }
-  [["capabilityList", data.capability_statement], ["responseChecks", data.response_checks], ["stopSigns", data.stop_signs]].forEach(([id, items]) => {
+  [["capabilityList", data.capability_statement], ["responseChecks", data.response_checks], ["decisionSignals", data.decision_signals]].forEach(([id, items]) => {
     const list = document.querySelector(`#${id}`);
     if (list) list.innerHTML = items.map((item) => `<li>${escapeHtml(item)}</li>`).join("");
   });

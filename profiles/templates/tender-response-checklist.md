@@ -5,8 +5,8 @@
 - [ ] Read the whole tender pack.
 - [ ] Confirm the closing date and portal.
 - [ ] Confirm all mandatory requirements.
-- [ ] Confirm whether the local company, project vehicle or crew can lead safely.
-- [ ] Check whether this should be a partner, subcontract, learning or future capability-building opportunity instead.
+- [ ] Confirm the honest role for this round: lead, partner, subcontract, observe, rehearse, or build toward later.
+- [ ] Check which vehicle, permissions, proof, people, insurance, policies and delivery responsibilities would need to stand behind the response.
 
 ## Response
 
@@ -16,6 +16,7 @@
 - [ ] Risks and controls are named.
 - [ ] Local benefit is specific.
 - [ ] Cultural authority and permission boundaries are respected.
+- [ ] The response does not claim more maturity than the vehicle or network can prove.
 - [ ] Attachments are named clearly.
 
 ## Submission
@@ -24,4 +25,4 @@
 - [ ] Portal upload is complete.
 - [ ] Confirmation is saved.
 - [ ] Submitted version is archived.
-- [ ] Debrief reminder is set.
+- [ ] Award/debrief reminder is set so the network can learn whether we win, partner, subcontract, or prepare for the next round.

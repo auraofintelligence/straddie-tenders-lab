@@ -105,7 +105,7 @@ def validate_timeline(source_keys: set[str]) -> None:
 
 def validate_checklists() -> None:
     checklists = read_json("data/checklists.json")
-    for key in ["readiness_steps", "capability_statement", "response_checks", "stop_signs"]:
+    for key in ["readiness_steps", "capability_statement", "response_checks", "decision_signals"]:
         if key not in checklists or not checklists[key]:
             fail(f"data/checklists.json missing {key}")
     for step in checklists["readiness_steps"]:
