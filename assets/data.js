@@ -305,14 +305,6 @@ window.STRADDIE_TENDERS_DATA = {
       "Cultural authority, permissions, privacy and public/private boundaries are handled with care",
       "The delivery plan is credible for island timing, logistics, weather, staffing, communication and documentation",
       "The final submission is made through the official portal, with version, date and confirmation retained"
-    ],
-    "decision_signals": [
-      "A mandatory requirement is not yet held by the vehicle that would submit",
-      "The strongest role is not prime contractor; it is partner, subcontractor, pilot host, evidence builder or future applicant",
-      "The work depends on cultural knowledge, Country, community trust or private material that needs clearer permission",
-      "The delivery burden would distort the project, underpay people, hide risk or create brittle cashflow",
-      "The deadline would force vague claims where proof, price, method or authority should be precise",
-      "The opportunity is better used as market learning: who wins, what buyers value, and what should mature next"
     ]
   },
   "data/network.json": [
