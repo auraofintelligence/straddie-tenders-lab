@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Straddie Tenders Lab favicon">
+  <rect width="256" height="256" rx="44" fill="#063043"/>
+  <path d="M40 172c31-46 65-68 103-68 30 0 56 14 78 42" fill="none" stroke="#8ad8cf" stroke-width="15" stroke-linecap="round"/>
+  <path d="M50 187c34-24 70-36 109-36 18 0 34 3 47 9" fill="none" stroke="#f2c572" stroke-width="12" stroke-linecap="round"/>
+  <path d="M78 67h79l27 27v91H78z" fill="#f8fbfa"/>
+  <path d="M157 67v27h27" fill="none" stroke="#0d4f66" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M99 116h56M99 139h72M99 162h45" fill="none" stroke="#0d4f66" stroke-width="9" stroke-linecap="round"/>
+</svg>

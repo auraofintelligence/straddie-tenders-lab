@@ -1,0 +1,167 @@
+[
+  {
+    "key": "redland-current-upcoming",
+    "name": "Redland City Council current and upcoming tenders",
+    "level": "council",
+    "level_label": "Redland City Council",
+    "status": "Official current, upcoming and awarded tender surface",
+    "best_for": "Local works, services, consultancy, infrastructure, facilities and Council-led opportunities that may touch Minjerribah.",
+    "watch_action": "Check open tenders, upcoming tenders and strategic contracting notes before assuming there is no local opportunity.",
+    "url": "https://www.redland.qld.gov.au/Business-and-investment/Doing-business-with-Council/Current-and-upcoming-tenders",
+    "last_checked": "Checked 2026-07-04"
+  },
+  {
+    "key": "redland-doing-business",
+    "name": "Doing business with Redland City Council",
+    "level": "council",
+    "level_label": "Redland City Council",
+    "status": "Supplier guidance and VendorPanel routing",
+    "best_for": "Understanding how Council releases, receives, evaluates and awards outsourced opportunities.",
+    "watch_action": "Register supplier details and categories where appropriate; keep evidence and insurance current.",
+    "url": "https://www.redland.qld.gov.au/Business-and-investment/Doing-business-with-Council",
+    "last_checked": "Checked 2026-07-04"
+  },
+  {
+    "key": "redland-vendorpanel",
+    "name": "Redland City Council VendorPanel Marketplace",
+    "level": "council",
+    "level_label": "Redland City Council",
+    "status": "Marketplace and quote invitation pathway",
+    "best_for": "Smaller goods and services opportunities where Council buyers invite quotes through supplier categories.",
+    "watch_action": "Set category matches carefully so relevant local suppliers can be found.",
+    "url": "https://www.redland.qld.gov.au/Business-and-investment/Doing-business-with-Council/VendorPanel-Marketplace",
+    "last_checked": "Checked 2026-07-04"
+  },
+  {
+    "key": "qld-find-tenders",
+    "name": "Find Queensland Government tenders",
+    "level": "queensland",
+    "level_label": "Queensland Government",
+    "status": "Official guide to current and future Queensland procurement opportunities",
+    "best_for": "State tender discovery across QTenders, eTender and forward procurement schedules.",
+    "watch_action": "Use this as the first explainer, then check the named portal or pipeline directly.",
+    "url": "https://www.business.qld.gov.au/running-business/marketing-sales/tendering/supply-queensland-government/find-tenders",
+    "last_checked": "Checked 2026-07-04"
+  },
+  {
+    "key": "qtenders",
+    "name": "QTenders",
+    "level": "queensland",
+    "level_label": "Queensland Government",
+    "status": "Queensland public tenders directory",
+    "best_for": "Open, closed and awarded Queensland Government public tenders.",
+    "watch_action": "Search for Minjerribah, North Stradbroke Island, Redland, ferry, tourism, ranger, environment, resilience and digital terms.",
+    "url": "https://qtenders.hpw.qld.gov.au/",
+    "last_checked": "Checked 2026-07-04"
+  },
+  {
+    "key": "qld-supplier-portal",
+    "name": "Queensland Government Supplier Portal",
+    "level": "queensland",
+    "level_label": "Queensland Government",
+    "status": "VendorPanel supplier portal for Queensland and local government opportunities",
+    "best_for": "Supplier registration and broader tender discovery through VendorPanel.",
+    "watch_action": "Keep supplier profile, categories and contact details current.",
+    "url": "https://www.supply.qld.gov.au/",
+    "last_checked": "Checked 2026-07-04"
+  },
+  {
+    "key": "qld-procurement-policy-2026",
+    "name": "Queensland Procurement Policy 2026",
+    "level": "queensland",
+    "level_label": "Queensland Government",
+    "status": "Current overarching Queensland procurement policy from 1 January 2026",
+    "best_for": "Understanding value-for-Queensland, sustainability, local benefit and strategic procurement expectations.",
+    "watch_action": "Use policy language carefully when shaping value, local benefit and supplier capability statements.",
+    "url": "https://www.forgov.qld.gov.au/finance-procurement-and-travel/procurement/procurement-resources/procurement-policies-and-frameworks/queensland-procurement-policy-2026",
+    "last_checked": "Checked 2026-07-04"
+  },
+  {
+    "key": "austender",
+    "name": "AusTender",
+    "level": "australian",
+    "level_label": "Australian Government",
+    "status": "Central Australian Government procurement publication portal",
+    "best_for": "Federal approaches to market, planned procurements, standing offers and contract notices.",
+    "watch_action": "Register, save searches and check the live Approach to Market details before responding.",
+    "url": "https://www.tenders.gov.au/",
+    "last_checked": "Checked 2026-07-04"
+  },
+  {
+    "key": "austender-current-atm",
+    "name": "AusTender current Approaches to Market",
+    "level": "australian",
+    "level_label": "Australian Government",
+    "status": "Current federal tender list",
+    "best_for": "Requests for tender, quote, expression of interest, information and proposal.",
+    "watch_action": "Search current ATMs for local-place keywords plus service categories such as health, digital, environment, tourism and resilience.",
+    "url": "https://www.tenders.gov.au/atm",
+    "last_checked": "Checked 2026-07-04"
+  },
+  {
+    "key": "selling-to-government",
+    "name": "Selling to the Australian Government",
+    "level": "australian",
+    "level_label": "Australian Government",
+    "status": "Plain-English supplier guidance",
+    "best_for": "Understanding open tender, limited tender and how buyers approach the market.",
+    "watch_action": "Use this before drafting if the tender language feels confusing.",
+    "url": "https://sellingtogov.finance.gov.au/guide/identifying-opportunities-to-sell-to-government",
+    "last_checked": "Checked 2026-07-04"
+  },
+  {
+    "key": "niaa-indigenous-procurement",
+    "name": "Indigenous procurement policies by jurisdiction",
+    "level": "first-nations",
+    "level_label": "National Indigenous Australians Agency",
+    "status": "Australian Government Indigenous procurement policy overview",
+    "best_for": "Understanding Indigenous Procurement Policy settings and jurisdiction differences.",
+    "watch_action": "Use alongside live tender rules; do not assume a set-aside applies unless the procurement says so.",
+    "url": "https://www.niaa.gov.au/our-work/employment-and-economic-development/indigenous-procurement-policies-jurisdiction",
+    "last_checked": "Checked 2026-07-04"
+  },
+  {
+    "key": "qld-economic-participation",
+    "name": "Queensland Aboriginal and Torres Strait Islander economic participation",
+    "level": "first-nations",
+    "level_label": "Queensland Government",
+    "status": "Queensland First Nations business and enterprise development context",
+    "best_for": "State context for Aboriginal and Torres Strait Islander business participation in procurement.",
+    "watch_action": "Pair procurement readiness with real business capability, governance and cultural authority.",
+    "url": "https://www.dwatsipm.qld.gov.au/our-work/aboriginal-torres-strait-islander-partnerships/business-economic-development/enterprise-development",
+    "last_checked": "Checked 2026-07-04"
+  },
+  {
+    "key": "minjerribah-futures",
+    "name": "Minjerribah Futures",
+    "level": "place",
+    "level_label": "Queensland Government",
+    "status": "Official transition and cultural eco-tourism context",
+    "best_for": "Understanding state-backed economic transition context after sand mining.",
+    "watch_action": "Use as place context only; check tender portals for actual procurement opportunities.",
+    "url": "https://www.detsi.qld.gov.au/tourism/tourism-development/first-nations/minjerribah-futures",
+    "last_checked": "Checked 2026-07-04"
+  },
+  {
+    "key": "qyac",
+    "name": "Quandamooka Yoolooburrabee Aboriginal Corporation",
+    "level": "place",
+    "level_label": "Quandamooka authority context",
+    "status": "Registered Prescribed Body Corporate for recognised Native Title rights and interests",
+    "best_for": "Cultural authority context, partnership awareness and permission-sensitive project thinking.",
+    "watch_action": "Do not treat this as a tender portal. Use it to remember that Country, culture and authority are not optional details.",
+    "url": "https://qyac.net.au/",
+    "last_checked": "Checked 2026-07-04"
+  },
+  {
+    "key": "minjerribah-protected-area",
+    "name": "Minjerribah Protected Area Expansion Strategy",
+    "level": "place",
+    "level_label": "Queensland Parks",
+    "status": "Protected area and joint stewardship context",
+    "best_for": "Environment, conservation, tourism, infrastructure and permission-aware planning context.",
+    "watch_action": "Flag environmental and protected-area constraints before tendering for works or services.",
+    "url": "https://parks.qld.gov.au/parks/naree-budjong-djara/about/minjerribah-protected-area-expansion-strategy",
+    "last_checked": "Checked 2026-07-04"
+  }
+]

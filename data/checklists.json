@@ -1,0 +1,52 @@
+{
+  "readiness_steps": [
+    {
+      "title": "Understand",
+      "body": "Work out whether this is a grant, tender, quote, panel, expression of interest or market sounding."
+    },
+    {
+      "title": "Fit",
+      "body": "Check eligibility, location, supplier category, insurance, licences, experience and whether the job is too big."
+    },
+    {
+      "title": "Prepare",
+      "body": "Gather capability statement, ABN, registrations, referees, policies, quotes, budget, method and delivery proof."
+    },
+    {
+      "title": "Respond",
+      "body": "Answer the exact criteria. Show value, local knowledge, risk control, timing, capacity and evidence."
+    },
+    {
+      "title": "Submit",
+      "body": "Use the official portal, leave time for upload problems, and record the version, date and contact person."
+    },
+    {
+      "title": "Improve",
+      "body": "If successful, deliver and keep proof. If unsuccessful, request a debrief and improve the next response."
+    }
+  ],
+  "capability_statement": [
+    "Who you are and where you work",
+    "Goods, services or works you can actually deliver",
+    "Relevant experience and examples",
+    "Licences, insurance, safety and compliance",
+    "First Nations, local, social or environmental value if true and relevant",
+    "Key people, equipment, partners and capacity limits",
+    "Referees, photos, links or proof"
+  ],
+  "response_checks": [
+    "The tender closes after the realistic preparation time needed",
+    "The supplier can meet mandatory requirements",
+    "The pricing covers labour, materials, admin, risk and reporting",
+    "The response answers every weighted criterion",
+    "Cultural authority and permissions are handled with care",
+    "The final submission is made through the official portal"
+  ],
+  "stop_signs": [
+    "Mandatory insurance, licence, accreditation or prior experience is missing",
+    "The job needs cashflow or staffing the supplier does not have",
+    "The scope relies on cultural knowledge or Country without permission",
+    "The deadline creates rushed, unsafe or misleading claims",
+    "The opportunity is better suited to a partner, subcontract role or future round"
+  ]
+}

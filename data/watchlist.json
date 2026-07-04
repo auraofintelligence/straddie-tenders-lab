@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Redland City Council tender and VendorPanel scan",
+    "level": "council",
+    "priority": "Weekly source watch",
+    "window_type": "Open and upcoming",
+    "summary": "Check Council's current and upcoming tenders, then VendorPanel categories that match local services, works, events, digital support, facilities and community infrastructure.",
+    "keywords": ["North Stradbroke Island", "Minjerribah", "Dunwich", "Gumpi", "Amity", "Point Lookout", "Redland", "island", "community"],
+    "action": "Shortlist only opportunities with real eligibility, realistic timing and a clear local supplier fit.",
+    "source_key": "redland-current-upcoming"
+  },
+  {
+    "title": "Queensland Government QTenders and eTender scan",
+    "level": "queensland",
+    "priority": "Weekly source watch",
+    "window_type": "Open, forward and awarded",
+    "summary": "Scan QTenders, eTender and forward procurement schedules for infrastructure, tourism, conservation, transport, resilience, digital and community service work connected to Minjerribah or Redlands.",
+    "keywords": ["Minjerribah", "North Stradbroke", "Redland", "Quandamooka", "ferry", "tourism", "ranger", "protected area", "resilience", "digital"],
+    "action": "Record source links and close dates, then test capability before drafting.",
+    "source_key": "qld-find-tenders"
+  },
+  {
+    "title": "Australian Government AusTender scan",
+    "level": "australian",
+    "priority": "Fortnightly source watch",
+    "window_type": "Open and planned",
+    "summary": "Watch AusTender for federal opportunities where a Straddie-connected supplier, partner or project might fit: health, disability, environment, digital inclusion, tourism, disaster readiness, research or regional services.",
+    "keywords": ["Redland", "Queensland", "Indigenous", "digital inclusion", "disaster", "environment", "tourism", "health", "community"],
+    "action": "Treat federal tenders as heavier lifts. Check panels, insurance, experience, finance and time before committing.",
+    "source_key": "austender-current-atm"
+  },
+  {
+    "title": "First Nations procurement and partnership readiness",
+    "level": "first-nations",
+    "priority": "Readiness watch",
+    "window_type": "Policy and directory",
+    "summary": "Watch Indigenous procurement policy settings and Queensland economic participation pathways while keeping cultural authority, governance and real business readiness central.",
+    "keywords": ["Indigenous Procurement Policy", "Aboriginal business", "Torres Strait Islander business", "Quandamooka", "capability statement"],
+    "action": "Do not use identity or Country as decoration. Confirm authority, ownership, permissions and capability before responding.",
+    "source_key": "niaa-indigenous-procurement"
+  },
+  {
+    "title": "Awarded contracts learning scan",
+    "level": "all",
+    "priority": "Monthly learning watch",
+    "window_type": "Awarded and closed",
+    "summary": "Review awarded and closed tenders to learn what buyers purchase, how often categories appear, and which suppliers already work in similar lanes.",
+    "keywords": ["awarded", "contract notice", "standing offer", "panel", "category"],
+    "action": "Use this for pattern learning, not jealousy. It helps decide whether to build capability, partner or leave the opportunity alone.",
+    "source_key": "austender"
+  }
+]

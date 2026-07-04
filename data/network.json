@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Stradbroke Grants Lab",
+    "tag": "Funding readiness",
+    "summary": "Grant research, watchlists, public notices and markdown profiles. Use it when the buyer is offering funding rather than purchasing a supplier response.",
+    "url": "https://auraofintelligence.github.io/stradbroke-grants-lab/",
+    "repo": "https://github.com/auraofintelligence/stradbroke-grants-lab"
+  },
+  {
+    "title": "Strange but True Community Ledger",
+    "tag": "Public proof trail",
+    "summary": "A public project doorway for support records, project visibility and accountability habits before larger civic work claims trust.",
+    "url": "https://auraofintelligence.github.io/strange-but-true/community-ledger.html",
+    "repo": "https://github.com/auraofintelligence/strange-but-true"
+  },
+  {
+    "title": "Mineral Moonshots",
+    "tag": "Strategic opportunity",
+    "summary": "The far-out material and civilisation atlas. Useful for seeing procurement not just as paperwork, but as a ladder toward larger local capability.",
+    "url": "https://auraofintelligence.github.io/mineral-moonshots/",
+    "repo": "https://github.com/auraofintelligence/mineral-moonshots"
+  },
+  {
+    "title": "Civilisation of Sand",
+    "tag": "Long-range systems imagination",
+    "summary": "Simulation-first worldbuilding around subterranean cities, in-situ resource loops, AI, robotics, energy and civic trust work.",
+    "url": "https://auraofintelligence.github.io/civilisation-of-sand/",
+    "repo": "https://github.com/auraofintelligence/civilisation-of-sand"
+  },
+  {
+    "title": "Legal Memory Workbench",
+    "tag": "Risk and source discipline",
+    "summary": "A companion for source, jurisdiction, evidence and risk notes when procurement work touches legal obligations or public claims.",
+    "url": "https://auraofintelligence.github.io/legal-memory-workbench/",
+    "repo": "https://github.com/auraofintelligence/legal-memory-workbench"
+  },
+  {
+    "title": "Straddie Digital Twin Builders",
+    "tag": "Simulation and evidence",
+    "summary": "Plain-English builders for place, private rooms, local systems and digital-twin thinking that can support tender scoping.",
+    "url": "https://auraofintelligence.github.io/straddie-digital-twin-builders/",
+    "repo": "https://github.com/auraofintelligence/straddie-digital-twin-builders"
+  },
+  {
+    "title": "Dunwich Ferry Terminal Open Data Lab",
+    "tag": "Transport and open data",
+    "summary": "A local evidence lab for ferry terminal change, movement questions and community-readable public data.",
+    "url": "https://auraofintelligence.github.io/dunwich-gumpi-ferry-terminal-open-data-lab/",
+    "repo": "https://github.com/auraofintelligence/dunwich-gumpi-ferry-terminal-open-data-lab"
+  },
+  {
+    "title": "Quandamooka Country Events Engine",
+    "tag": "Events and public activity",
+    "summary": "Event atlas and public-safe planning doorway for activities on Quandamooka Country.",
+    "url": "https://auraofintelligence.github.io/quandamooka-country-events-engine/",
+    "repo": "https://github.com/auraofintelligence/quandamooka-country-events-engine"
+  }
+]
