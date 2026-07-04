@@ -34,7 +34,7 @@
       "level_label": "Australian Government",
       "cadence": "weekly",
       "pipeline_key": "federal-procurement-watch",
-      "intent": "Find federal opportunities where a local supplier, partner or pipeline could realistically fit or learn from the market.",
+      "intent": "Find federal opportunities where a local company, project vehicle, partner, subcontract lane or pipeline could realistically fit or learn from the market.",
       "place_terms": ["Queensland", "Redland", "North Stradbroke", "Minjerribah", "Indigenous", "regional"],
       "domain_terms": ["health", "disability", "aged care", "environment", "digital inclusion", "disaster", "tourism", "community", "research", "training"],
       "pipeline_terms": ["grants", "ledger", "resilience", "digital-twin", "aura"],
@@ -60,10 +60,10 @@
       "level_label": "Cross-government",
       "cadence": "monthly",
       "pipeline_key": "market-pattern-learning",
-      "intent": "Read awarded and closed contracts to learn what buyers purchase, which categories repeat, and where local capability could be built before the next round.",
+      "intent": "Read awarded and closed contracts to learn what buyers purchase, which categories repeat, who is already winning, and where local capability, trusted partnership or pre-procurement simulation could be built before the next round.",
       "place_terms": ["Redland", "Queensland", "regional", "island", "coastal", "Indigenous"],
       "domain_terms": ["contract notice", "awarded", "standing offer", "panel", "supplier", "category", "consultancy", "works", "services"],
-      "pipeline_terms": ["grants", "ledger", "mineral-moonshots", "civilisation-of-sand", "aura"],
+      "pipeline_terms": ["grants", "ledger", "film-club", "cinematic-universe", "game-world", "web3-theory", "mineral-moonshots", "civilisation-of-sand", "aura"],
       "search_url": "https://www.tenders.gov.au/Cn"
     }
   ]

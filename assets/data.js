@@ -184,7 +184,7 @@ window.STRADDIE_TENDERS_DATA = {
         "island",
         "community"
       ],
-      "action": "Shortlist only opportunities with real eligibility, realistic timing and a clear local supplier fit.",
+      "action": "Shortlist opportunities with real eligibility, realistic timing and a clear route to lead locally, partner, subcontract or build capacity.",
       "source_key": "redland-current-upcoming"
     },
     {
@@ -205,7 +205,7 @@ window.STRADDIE_TENDERS_DATA = {
         "resilience",
         "digital"
       ],
-      "action": "Record source links and close dates, then test capability before drafting.",
+      "action": "Record source links and close dates, then map the lead, partner, subcontract or capability-building role before drafting.",
       "source_key": "qld-find-tenders"
     },
     {
@@ -213,7 +213,7 @@ window.STRADDIE_TENDERS_DATA = {
       "level": "australian",
       "priority": "Fortnightly source watch",
       "window_type": "Open and planned",
-      "summary": "Watch AusTender for federal opportunities where a Straddie-connected supplier, partner or project might fit: health, disability, environment, digital inclusion, tourism, disaster readiness, research or regional services.",
+      "summary": "Watch AusTender for federal opportunities where a Straddie-connected company, partner, subcontract lane or capacity-building pipeline might fit: health, disability, environment, digital inclusion, tourism, disaster readiness, research or regional services.",
       "keywords": [
         "Redland",
         "Queensland",
@@ -257,7 +257,7 @@ window.STRADDIE_TENDERS_DATA = {
         "panel",
         "category"
       ],
-      "action": "Use this for pattern learning, not jealousy. It helps decide whether to build capability, partner or leave the opportunity alone.",
+      "action": "Use this for pattern learning and relationship mapping. It helps decide whether to build capability, approach a winner, partner, subcontract, pause the direct bid or rehearse a future version first.",
       "source_key": "austender"
     }
   ],
@@ -269,15 +269,15 @@ window.STRADDIE_TENDERS_DATA = {
       },
       {
         "title": "Fit",
-        "body": "Check eligibility, location, supplier category, insurance, licences, experience and whether the job is too big."
+        "body": "Check eligibility, location, business category, insurance, licences, experience, partners and whether the job should be led locally, shared or learned from."
       },
       {
         "title": "Prepare",
-        "body": "Gather capability statement, ABN, registrations, referees, policies, quotes, budget, method and delivery proof."
+        "body": "Gather capability statement, ABN, registrations, referees, policies, quotes, budget, method, partner roles and delivery proof."
       },
       {
         "title": "Respond",
-        "body": "Answer the exact criteria. Show value, local knowledge, risk control, timing, capacity and evidence."
+        "body": "Answer the exact criteria. Show value, local knowledge, risk control, timing, capacity, partners and evidence."
       },
       {
         "title": "Submit",
@@ -285,21 +285,21 @@ window.STRADDIE_TENDERS_DATA = {
       },
       {
         "title": "Improve",
-        "body": "If successful, deliver and keep proof. If unsuccessful, request a debrief and improve the next response."
+        "body": "If successful, deliver and keep proof. If another team wins, record who, what and why so the network can learn, partner or build for the next round."
       }
     ],
     "capability_statement": [
       "Who you are and where you work",
-      "Goods, services or works you can actually deliver",
+      "Goods, services or works you can lead, coordinate, partner into or subcontract safely",
       "Relevant experience and examples",
       "Licences, insurance, safety and compliance",
       "First Nations, local, social or environmental value if true and relevant",
-      "Key people, equipment, partners and capacity limits",
+      "Key people, equipment, partners, subcontract lanes and capacity limits",
       "Referees, photos, links or proof"
     ],
     "response_checks": [
       "The tender closes after the realistic preparation time needed",
-      "The supplier can meet mandatory requirements",
+      "The local vehicle, company or partner team can meet mandatory requirements",
       "The pricing covers labour, materials, admin, risk and reporting",
       "The response answers every weighted criterion",
       "Cultural authority and permissions are handled with care",
@@ -307,17 +307,17 @@ window.STRADDIE_TENDERS_DATA = {
     ],
     "stop_signs": [
       "Mandatory insurance, licence, accreditation or prior experience is missing",
-      "The job needs cashflow or staffing the supplier does not have",
+      "The job needs cashflow or staffing the current vehicle or network does not yet have",
       "The scope relies on cultural knowledge or Country without permission",
       "The deadline creates rushed, unsafe or misleading claims",
-      "The opportunity is better suited to a partner, subcontract role or future round"
+      "The opportunity is better suited to a partner, subcontract role, awarded-contract learning note or future round"
     ]
   },
   "data/network.json": [
     {
       "title": "Stradbroke Grants Lab",
       "tag": "Funding readiness",
-      "summary": "Grant research, watchlists, public notices and markdown profiles. Use it when the buyer is offering funding rather than purchasing a supplier response.",
+      "summary": "Grant research, watchlists, public notices and markdown profiles. Use it when the buyer is offering funding rather than purchasing delivery through a contract.",
       "url": "https://auraofintelligence.github.io/stradbroke-grants-lab/",
       "repo": "https://github.com/auraofintelligence/stradbroke-grants-lab"
     },
@@ -331,9 +331,16 @@ window.STRADDIE_TENDERS_DATA = {
     {
       "title": "Ready S.E.T. Co-op Trust Hub",
       "tag": "Trust and co-op pathway",
-      "summary": "Public doorway for trust-building, co-working, shared assets and local job pathways that can turn tender and grant readiness into locally held capacity.",
+      "summary": "An exciting future-work horizon for trust-building, co-working, shared assets and local job pathways, held as a possibility rather than an assumed outcome.",
       "url": "https://auraofintelligence.github.io/ready-set-co-op-trust-hub/",
       "repo": "https://github.com/auraofintelligence/ready-set-co-op-trust-hub"
+    },
+    {
+      "title": "Sandworm Subterranean Systems",
+      "tag": "Future systems exploration",
+      "summary": "A source-aware subterranean systems workbench for transport, material loops, energy, erosion, documentary trails and future infrastructure imagination without assuming approval or inevitability.",
+      "url": "https://auraofintelligence.github.io/sandworm-subterranean-systems/",
+      "repo": "https://github.com/auraofintelligence/sandworm-subterranean-systems"
     },
     {
       "title": "Mineral Moonshots",
@@ -343,11 +350,32 @@ window.STRADDIE_TENDERS_DATA = {
       "repo": "https://github.com/auraofintelligence/mineral-moonshots"
     },
     {
-      "title": "Civilisation of Sand",
+      "title": "Civilisation of Sand Epoch",
       "tag": "Long-range systems imagination",
-      "summary": "Simulation-first worldbuilding around subterranean cities, in-situ resource loops, AI, robotics, energy and civic trust work.",
+      "summary": "A long-range future-work and story horizon around subterranean cities, in-situ resource loops, AI, robotics, energy and civic trust, without needing reality to resolve that way.",
       "url": "https://auraofintelligence.github.io/civilisation-of-sand/",
       "repo": "https://github.com/auraofintelligence/civilisation-of-sand"
+    },
+    {
+      "title": "Film Club Documentary Builders",
+      "tag": "Film and evidence rehearsal",
+      "summary": "Markdown-first film planning builders for story, source trails, interviews, scenes, screenings and handoffs. Useful as a theorised rehearsal layer before any formal program, grant or tender claim.",
+      "url": "https://auraofintelligence.github.io/film-club-documentary-builders/",
+      "repo": "https://github.com/auraofintelligence/film-club-documentary-builders"
+    },
+    {
+      "title": "i C. infinity Music Universe",
+      "tag": "Cinematic universe seeds",
+      "summary": "A music and visual-brief universe where songs, scenes, storyboards and video seeds can explore possible futures before they become formal delivery work.",
+      "url": "https://auraofintelligence.github.io/i-C-infinity-music-universe/",
+      "repo": "https://github.com/auraofintelligence/i-C-infinity-music-universe"
+    },
+    {
+      "title": "Alpha Infinity Foundation",
+      "tag": "Game-world and web3 theory",
+      "summary": "A concept dashboard for game-like, DAO and web3 coordination ideas. Treat it as theory and simulacrum, not as an implemented financial, legal or technical system.",
+      "url": "https://auraofintelligence.github.io/alpha-infinity/",
+      "repo": "https://github.com/auraofintelligence/alpha-infinity"
     },
     {
       "title": "Legal Memory Workbench",
@@ -464,7 +492,7 @@ window.STRADDIE_TENDERS_DATA = {
         "level_label": "Australian Government",
         "cadence": "weekly",
         "pipeline_key": "federal-procurement-watch",
-        "intent": "Find federal opportunities where a local supplier, partner or pipeline could realistically fit or learn from the market.",
+        "intent": "Find federal opportunities where a local company, project vehicle, partner, subcontract lane or pipeline could realistically fit or learn from the market.",
         "place_terms": [
           "Queensland",
           "Redland",
@@ -536,7 +564,7 @@ window.STRADDIE_TENDERS_DATA = {
         "level_label": "Cross-government",
         "cadence": "monthly",
         "pipeline_key": "market-pattern-learning",
-        "intent": "Read awarded and closed contracts to learn what buyers purchase, which categories repeat, and where local capability could be built before the next round.",
+        "intent": "Read awarded and closed contracts to learn what buyers purchase, which categories repeat, who is already winning, and where local capability, trusted partnership or pre-procurement simulation could be built before the next round.",
         "place_terms": [
           "Redland",
           "Queensland",
@@ -559,6 +587,10 @@ window.STRADDIE_TENDERS_DATA = {
         "pipeline_terms": [
           "grants",
           "ledger",
+          "film-club",
+          "cinematic-universe",
+          "game-world",
+          "web3-theory",
           "mineral-moonshots",
           "civilisation-of-sand",
           "aura"
@@ -573,7 +605,7 @@ window.STRADDIE_TENDERS_DATA = {
     "scan_cadence": "weekly",
     "pipeline_contract": {
       "name": "straddie-tender-timeline-v1",
-      "description": "Pipeline-readable tender and procurement records for Straddie-connected opportunities. Records must be source-backed, dated, and tagged for downstream grants, ledger, events, resilience, digital twin, Mineral Moonshots and Civilisation of Sand pipelines.",
+      "description": "Pipeline-readable tender and procurement records for Straddie-connected opportunities. Records must be source-backed, dated, and tagged for downstream grants, ledger, events, film-club, cinematic-universe, game-world/web3 theory, resilience, digital twin, Mineral Moonshots and Civilisation of Sand pipelines.",
       "primary_file": "data/tender-timeline.json",
       "keyword_file": "data/tender-keywords.json",
       "update_rule": "Add or update records only from official source pages or official tender portals. Use tbc for uncertain dates. Do not infer an open tender from a policy page, media release, strategy page or old awarded contract."
@@ -613,6 +645,10 @@ window.STRADDIE_TENDERS_DATA = {
         "pipeline_tags": [
           "digital-twin",
           "civilisation-of-sand",
+          "film-club",
+          "cinematic-universe",
+          "game-world",
+          "web3-theory",
           "resilience",
           "events",
           "mineral-moonshots"
@@ -633,6 +669,10 @@ window.STRADDIE_TENDERS_DATA = {
         "pipeline_tags": [
           "grants",
           "ledger",
+          "film-club",
+          "cinematic-universe",
+          "game-world",
+          "web3-theory",
           "resilience",
           "digital-twin",
           "aura"

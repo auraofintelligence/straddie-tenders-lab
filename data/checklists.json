@@ -6,15 +6,15 @@
     },
     {
       "title": "Fit",
-      "body": "Check eligibility, location, supplier category, insurance, licences, experience and whether the job is too big."
+      "body": "Check eligibility, location, business category, insurance, licences, experience, partners and whether the job should be led locally, shared or learned from."
     },
     {
       "title": "Prepare",
-      "body": "Gather capability statement, ABN, registrations, referees, policies, quotes, budget, method and delivery proof."
+      "body": "Gather capability statement, ABN, registrations, referees, policies, quotes, budget, method, partner roles and delivery proof."
     },
     {
       "title": "Respond",
-      "body": "Answer the exact criteria. Show value, local knowledge, risk control, timing, capacity and evidence."
+      "body": "Answer the exact criteria. Show value, local knowledge, risk control, timing, capacity, partners and evidence."
     },
     {
       "title": "Submit",
@@ -22,21 +22,21 @@
     },
     {
       "title": "Improve",
-      "body": "If successful, deliver and keep proof. If unsuccessful, request a debrief and improve the next response."
+      "body": "If successful, deliver and keep proof. If another team wins, record who, what and why so the network can learn, partner or build for the next round."
     }
   ],
   "capability_statement": [
     "Who you are and where you work",
-    "Goods, services or works you can actually deliver",
+    "Goods, services or works you can lead, coordinate, partner into or subcontract safely",
     "Relevant experience and examples",
     "Licences, insurance, safety and compliance",
     "First Nations, local, social or environmental value if true and relevant",
-    "Key people, equipment, partners and capacity limits",
+    "Key people, equipment, partners, subcontract lanes and capacity limits",
     "Referees, photos, links or proof"
   ],
   "response_checks": [
     "The tender closes after the realistic preparation time needed",
-    "The supplier can meet mandatory requirements",
+    "The local vehicle, company or partner team can meet mandatory requirements",
     "The pricing covers labour, materials, admin, risk and reporting",
     "The response answers every weighted criterion",
     "Cultural authority and permissions are handled with care",
@@ -44,9 +44,9 @@
   ],
   "stop_signs": [
     "Mandatory insurance, licence, accreditation or prior experience is missing",
-    "The job needs cashflow or staffing the supplier does not have",
+    "The job needs cashflow or staffing the current vehicle or network does not yet have",
     "The scope relies on cultural knowledge or Country without permission",
     "The deadline creates rushed, unsafe or misleading claims",
-    "The opportunity is better suited to a partner, subcontract role or future round"
+    "The opportunity is better suited to a partner, subcontract role, awarded-contract learning note or future round"
   ]
 }

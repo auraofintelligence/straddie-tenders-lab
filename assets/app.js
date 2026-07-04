@@ -167,12 +167,12 @@ async function renderHome() {
     stats.innerHTML = [
       ["Source surfaces", sources.length, "Official tender, policy and place-context links."],
       ["Watch lanes", watchlist.length, "Calm search routes, source checks and awarded-contract learning habits."],
-      ["Companion repos", network.length, "Grants, ledger, moonshots, sand and Straddie systems."],
+      ["Companion repos", network.length, "Grants, ledger, co-op, subterranean systems, sand and Straddie evidence labs."],
     ].map(([title, count, body]) => `<article class="mini-card"><p class="tag">${count}</p><h3>${title}</h3><p>${body}</p></article>`).join("");
   }
   const networkPreview = document.querySelector("#networkPreview");
   if (networkPreview) {
-    networkPreview.innerHTML = network.slice(0, 4).map(networkCard).join("");
+    networkPreview.innerHTML = network.slice(0, 6).map(networkCard).join("");
   }
 }
 

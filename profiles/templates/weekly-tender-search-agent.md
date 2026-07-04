@@ -54,6 +54,10 @@ Use only tags that downstream systems can understand:
 - `ledger`
 - `events`
 - `noticeboard`
+- `film-club`
+- `cinematic-universe`
+- `game-world`
+- `web3-theory`
 - `resilience`
 - `digital-twin`
 - `mineral-moonshots`

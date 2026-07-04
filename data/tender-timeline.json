@@ -4,7 +4,7 @@
   "scan_cadence": "weekly",
   "pipeline_contract": {
     "name": "straddie-tender-timeline-v1",
-    "description": "Pipeline-readable tender and procurement records for Straddie-connected opportunities. Records must be source-backed, dated, and tagged for downstream grants, ledger, events, resilience, digital twin, Mineral Moonshots and Civilisation of Sand pipelines.",
+    "description": "Pipeline-readable tender and procurement records for Straddie-connected opportunities. Records must be source-backed, dated, and tagged for downstream grants, ledger, events, film-club, cinematic-universe, game-world/web3 theory, resilience, digital twin, Mineral Moonshots and Civilisation of Sand pipelines.",
     "primary_file": "data/tender-timeline.json",
     "keyword_file": "data/tender-keywords.json",
     "update_rule": "Add or update records only from official source pages or official tender portals. Use tbc for uncertain dates. Do not infer an open tender from a policy page, media release, strategy page or old awarded contract."
@@ -35,7 +35,7 @@
       "close_date": "tbc",
       "last_checked": "2026-07-04",
       "summary": "Weekly QTenders and Queensland supplier search lane for Minjerribah, Redland, transport, tourism, environment, resilience, digital and community service terms.",
-      "pipeline_tags": ["digital-twin", "civilisation-of-sand", "resilience", "events", "mineral-moonshots"],
+      "pipeline_tags": ["digital-twin", "civilisation-of-sand", "film-club", "cinematic-universe", "game-world", "web3-theory", "resilience", "events", "mineral-moonshots"],
       "next_action": "Search QTenders and related Queensland procurement guidance. Record only official opportunity links and dates."
     },
     {
@@ -49,7 +49,7 @@
       "close_date": "tbc",
       "last_checked": "2026-07-04",
       "summary": "Weekly AusTender lane for federal opportunities and panels that could matter to local suppliers, partners or capability-building pipelines.",
-      "pipeline_tags": ["grants", "ledger", "resilience", "digital-twin", "aura"],
+      "pipeline_tags": ["grants", "ledger", "film-club", "cinematic-universe", "game-world", "web3-theory", "resilience", "digital-twin", "aura"],
       "next_action": "Search current approaches to market, planned procurements and contract notices. Keep federal leads separate from grants."
     },
     {

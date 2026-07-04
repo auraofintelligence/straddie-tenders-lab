@@ -5,8 +5,8 @@
 - [ ] Read the whole tender pack.
 - [ ] Confirm the closing date and portal.
 - [ ] Confirm all mandatory requirements.
-- [ ] Confirm the supplier can actually deliver.
-- [ ] Check whether this should be a partner or subcontract opportunity instead.
+- [ ] Confirm whether the local company, project vehicle or crew can lead safely.
+- [ ] Check whether this should be a partner, subcontract, learning or future capability-building opportunity instead.
 
 ## Response
 

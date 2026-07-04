@@ -2,7 +2,7 @@
 
 A standalone public research workbench for North Stradbroke Island / Minjerribah government tenders, procurement pathways and bid readiness.
 
-This sits beside the Stradbroke Grants Lab. Grants are funding programs. Tenders are buying processes: government is asking suppliers to provide goods, services, works, advice or capability.
+This sits beside the Stradbroke Grants Lab. Grants are funding programs. Tenders are buying processes: government is asking a capable business, organisation or delivery team to provide goods, services, works, advice or capability.
 
 ## Local Preview
 
@@ -31,7 +31,7 @@ http://localhost:4188/
 - `first-nations-procurement.html`: Indigenous procurement, cultural authority and partnership-readiness lane.
 - `keyword-search.html`: repeatable keyword search lanes and structured tender timeline data for weekly agent refreshes.
 - `bid-readiness.html`: plain-English readiness steps, capability statement prompts and response checks.
-- `network.html`: reciprocal project map for grants, ledger, Mineral Moonshots, Civilisation of Sand and related Straddie labs.
+- `network.html`: reciprocal project map for grants, ledger, Ready S.E.T., Sandworm, Mineral Moonshots, the Civilisation of Sand epoch and related Straddie labs.
 
 ## Data Files
 

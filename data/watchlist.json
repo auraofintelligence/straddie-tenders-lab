@@ -6,7 +6,7 @@
     "window_type": "Open and upcoming",
     "summary": "Check Council's current and upcoming tenders, then VendorPanel categories that match local services, works, events, digital support, facilities and community infrastructure.",
     "keywords": ["North Stradbroke Island", "Minjerribah", "Dunwich", "Gumpi", "Amity", "Point Lookout", "Redland", "island", "community"],
-    "action": "Shortlist only opportunities with real eligibility, realistic timing and a clear local supplier fit.",
+    "action": "Shortlist opportunities with real eligibility, realistic timing and a clear route to lead locally, partner, subcontract or build capacity.",
     "source_key": "redland-current-upcoming"
   },
   {
@@ -16,7 +16,7 @@
     "window_type": "Open, forward and awarded",
     "summary": "Scan QTenders, eTender and forward procurement schedules for infrastructure, tourism, conservation, transport, resilience, digital and community service work connected to Minjerribah or Redlands.",
     "keywords": ["Minjerribah", "North Stradbroke", "Redland", "Quandamooka", "ferry", "tourism", "ranger", "protected area", "resilience", "digital"],
-    "action": "Record source links and close dates, then test capability before drafting.",
+    "action": "Record source links and close dates, then map the lead, partner, subcontract or capability-building role before drafting.",
     "source_key": "qld-find-tenders"
   },
   {
@@ -24,7 +24,7 @@
     "level": "australian",
     "priority": "Fortnightly source watch",
     "window_type": "Open and planned",
-    "summary": "Watch AusTender for federal opportunities where a Straddie-connected supplier, partner or project might fit: health, disability, environment, digital inclusion, tourism, disaster readiness, research or regional services.",
+    "summary": "Watch AusTender for federal opportunities where a Straddie-connected company, partner, subcontract lane or capacity-building pipeline might fit: health, disability, environment, digital inclusion, tourism, disaster readiness, research or regional services.",
     "keywords": ["Redland", "Queensland", "Indigenous", "digital inclusion", "disaster", "environment", "tourism", "health", "community"],
     "action": "Treat federal tenders as heavier lifts. Check panels, insurance, experience, finance and time before committing.",
     "source_key": "austender-current-atm"
@@ -46,7 +46,7 @@
     "window_type": "Awarded and closed",
     "summary": "Review awarded and closed tenders to learn what buyers purchase, how often categories appear, and which suppliers already work in similar lanes.",
     "keywords": ["awarded", "contract notice", "standing offer", "panel", "category"],
-    "action": "Use this for pattern learning, not jealousy. It helps decide whether to build capability, partner or leave the opportunity alone.",
+    "action": "Use this for pattern learning and relationship mapping. It helps decide whether to build capability, approach a winner, partner, subcontract, pause the direct bid or rehearse a future version first.",
     "source_key": "austender"
   }
 ]

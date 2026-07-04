@@ -2,7 +2,7 @@
   {
     "title": "Stradbroke Grants Lab",
     "tag": "Funding readiness",
-    "summary": "Grant research, watchlists, public notices and markdown profiles. Use it when the buyer is offering funding rather than purchasing a supplier response.",
+    "summary": "Grant research, watchlists, public notices and markdown profiles. Use it when the buyer is offering funding rather than purchasing delivery through a contract.",
     "url": "https://auraofintelligence.github.io/stradbroke-grants-lab/",
     "repo": "https://github.com/auraofintelligence/stradbroke-grants-lab"
   },
@@ -16,9 +16,16 @@
   {
     "title": "Ready S.E.T. Co-op Trust Hub",
     "tag": "Trust and co-op pathway",
-    "summary": "Public doorway for trust-building, co-working, shared assets and local job pathways that can turn tender and grant readiness into locally held capacity.",
+    "summary": "An exciting future-work horizon for trust-building, co-working, shared assets and local job pathways, held as a possibility rather than an assumed outcome.",
     "url": "https://auraofintelligence.github.io/ready-set-co-op-trust-hub/",
     "repo": "https://github.com/auraofintelligence/ready-set-co-op-trust-hub"
+  },
+  {
+    "title": "Sandworm Subterranean Systems",
+    "tag": "Future systems exploration",
+    "summary": "A source-aware subterranean systems workbench for transport, material loops, energy, erosion, documentary trails and future infrastructure imagination without assuming approval or inevitability.",
+    "url": "https://auraofintelligence.github.io/sandworm-subterranean-systems/",
+    "repo": "https://github.com/auraofintelligence/sandworm-subterranean-systems"
   },
   {
     "title": "Mineral Moonshots",
@@ -28,11 +35,32 @@
     "repo": "https://github.com/auraofintelligence/mineral-moonshots"
   },
   {
-    "title": "Civilisation of Sand",
+    "title": "Civilisation of Sand Epoch",
     "tag": "Long-range systems imagination",
-    "summary": "Simulation-first worldbuilding around subterranean cities, in-situ resource loops, AI, robotics, energy and civic trust work.",
+    "summary": "A long-range future-work and story horizon around subterranean cities, in-situ resource loops, AI, robotics, energy and civic trust, without needing reality to resolve that way.",
     "url": "https://auraofintelligence.github.io/civilisation-of-sand/",
     "repo": "https://github.com/auraofintelligence/civilisation-of-sand"
+  },
+  {
+    "title": "Film Club Documentary Builders",
+    "tag": "Film and evidence rehearsal",
+    "summary": "Markdown-first film planning builders for story, source trails, interviews, scenes, screenings and handoffs. Useful as a theorised rehearsal layer before any formal program, grant or tender claim.",
+    "url": "https://auraofintelligence.github.io/film-club-documentary-builders/",
+    "repo": "https://github.com/auraofintelligence/film-club-documentary-builders"
+  },
+  {
+    "title": "i C. infinity Music Universe",
+    "tag": "Cinematic universe seeds",
+    "summary": "A music and visual-brief universe where songs, scenes, storyboards and video seeds can explore possible futures before they become formal delivery work.",
+    "url": "https://auraofintelligence.github.io/i-C-infinity-music-universe/",
+    "repo": "https://github.com/auraofintelligence/i-C-infinity-music-universe"
+  },
+  {
+    "title": "Alpha Infinity Foundation",
+    "tag": "Game-world and web3 theory",
+    "summary": "A concept dashboard for game-like, DAO and web3 coordination ideas. Treat it as theory and simulacrum, not as an implemented financial, legal or technical system.",
+    "url": "https://auraofintelligence.github.io/alpha-infinity/",
+    "repo": "https://github.com/auraofintelligence/alpha-infinity"
   },
   {
     "title": "Legal Memory Workbench",
