@@ -594,8 +594,8 @@ window.STRADDIE_TENDERS_DATA = {
     ]
   },
   "data/tender-timeline.json": {
-    "generated_at": "2026-07-04",
-    "next_scan_due": "2026-07-06",
+    "generated_at": "2026-07-06",
+    "next_scan_due": "2026-07-13",
     "scan_cadence": "weekly",
     "pipeline_contract": {
       "name": "straddie-tender-timeline-v1",
@@ -614,7 +614,7 @@ window.STRADDIE_TENDERS_DATA = {
         "source_key": "redland-current-upcoming",
         "open_date": "tbc",
         "close_date": "tbc",
-        "last_checked": "2026-07-04",
+        "last_checked": "2026-07-06",
         "summary": "Weekly check lane for current and upcoming Redland City Council tenders, VendorPanel pathways and awarded contract learning.",
         "pipeline_tags": [
           "grants",
@@ -626,6 +626,78 @@ window.STRADDIE_TENDERS_DATA = {
         "next_action": "Search place and service terms, then add a new timeline record only when an official opportunity is open, upcoming or newly awarded."
       },
       {
+        "id": "redland-pdg-20842-1-skate-bowl-refurbishment",
+        "title": "PDG-20842-1 Skate Bowl Refurbishment Windemere Road Park, Alexandra Hills",
+        "level": "council",
+        "level_label": "Redland City Council",
+        "status": "open",
+        "source_key": "redland-current-upcoming",
+        "open_date": "tbc",
+        "close_date": "2026-07-30",
+        "last_checked": "2026-07-06",
+        "summary": "Redland City Council seeks a principal contractor for design and construction of a skate park at Windemere Road Park, Alexandra Hills. Tender documents are available through VendorPanel.",
+        "pipeline_tags": [
+          "events",
+          "noticeboard",
+          "resilience"
+        ],
+        "next_action": "Check the VendorPanel tender pack, mandatory site inspection details and local subcontractor fit before deciding whether this is a lead, partner or learning record."
+      },
+      {
+        "id": "redland-pdg-20857-1-shade-sail-lions-boulevard-park",
+        "title": "PDG-20857-1 Shade Sail - Lions Boulevard Park, Russell Island Redland City",
+        "level": "council",
+        "level_label": "Redland City Council",
+        "status": "closing-soon",
+        "source_key": "redland-current-upcoming",
+        "open_date": "tbc",
+        "close_date": "2026-07-13",
+        "last_checked": "2026-07-06",
+        "summary": "Redland City Council seeks a principal contractor for shade sail construction and additional seating works at Lions Boulevard Park, Russell Island. Tender documents are available through VendorPanel.",
+        "pipeline_tags": [
+          "events",
+          "noticeboard",
+          "resilience"
+        ],
+        "next_action": "Read the VendorPanel documents, confirm delivery requirements and check whether island-capable trades or local subcontractors can respond before the close date."
+      },
+      {
+        "id": "redland-pdg-43883-1-revetment-wall-stabilisation-raby-bay",
+        "title": "PDG-43883-1 Design and Construct Revetment Wall Stabilisation - Sternlight Court Cleveland (Raby Bay)",
+        "level": "council",
+        "level_label": "Redland City Council",
+        "status": "closing-soon",
+        "source_key": "redland-current-upcoming",
+        "open_date": "tbc",
+        "close_date": "2026-07-06",
+        "last_checked": "2026-07-06",
+        "summary": "Redland City Council seeks a principal contractor for design and construction of revetment wall stabilisation works at Sternlight Court, Cleveland. Tender documents are available through VendorPanel.",
+        "pipeline_tags": [
+          "ledger",
+          "resilience",
+          "digital-twin"
+        ],
+        "next_action": "Treat as urgent or expired depending on the live VendorPanel clock; use the record mainly for coastal works capability mapping if the response window has closed."
+      },
+      {
+        "id": "redland-pdg-43894-1-principal-cycle-network-projects",
+        "title": "PDG-43894-1 Principal Cycle Network Projects Various Locations, Redland City",
+        "level": "council",
+        "level_label": "Redland City Council",
+        "status": "closed",
+        "source_key": "redland-current-upcoming",
+        "open_date": "tbc",
+        "close_date": "2026-06-29",
+        "last_checked": "2026-07-06",
+        "summary": "Redland City Council listed a head contractor tender for three active transport projects, including Principal Cycle Network and Moreton Bay Cycleway works. The listed closing date has passed.",
+        "pipeline_tags": [
+          "ledger",
+          "resilience",
+          "digital-twin"
+        ],
+        "next_action": "Do not treat as open. Keep as a learning record for active transport procurement patterns and future Redland or island-adjacent cycleway opportunities."
+      },
+      {
         "id": "qld-weekly-source-watch",
         "title": "Queensland Government tender source watch",
         "level": "queensland",
@@ -634,7 +706,7 @@ window.STRADDIE_TENDERS_DATA = {
         "source_key": "qtenders",
         "open_date": "tbc",
         "close_date": "tbc",
-        "last_checked": "2026-07-04",
+        "last_checked": "2026-07-06",
         "summary": "Weekly QTenders and Queensland supplier search lane for Minjerribah, Redland, transport, tourism, environment, resilience, digital and community service terms.",
         "pipeline_tags": [
           "digital-twin",
@@ -658,7 +730,7 @@ window.STRADDIE_TENDERS_DATA = {
         "source_key": "austender-current-atm",
         "open_date": "tbc",
         "close_date": "tbc",
-        "last_checked": "2026-07-04",
+        "last_checked": "2026-07-06",
         "summary": "Weekly AusTender lane for federal opportunities and panels that could matter to local suppliers, partners or capability-building pipelines.",
         "pipeline_tags": [
           "grants",
@@ -682,7 +754,7 @@ window.STRADDIE_TENDERS_DATA = {
         "source_key": "niaa-indigenous-procurement",
         "open_date": "tbc",
         "close_date": "tbc",
-        "last_checked": "2026-07-04",
+        "last_checked": "2026-07-06",
         "summary": "Policy and opportunity watch for Indigenous procurement settings, First Nations business participation and permission-sensitive partnership readiness.",
         "pipeline_tags": [
           "ledger",
