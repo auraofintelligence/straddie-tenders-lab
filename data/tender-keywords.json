@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04",
+  "updated_at": "2026-07-25",
   "search_lanes": [
     {
       "title": "Council local works and services",
@@ -10,8 +10,8 @@
       "pipeline_key": "local-civic-procurement",
       "intent": "Find Redland City Council tenders and quote pathways that could involve island suppliers, community infrastructure, facilities, transport, events or digital support.",
       "place_terms": ["North Stradbroke Island", "Minjerribah", "Dunwich", "Gumpi", "Amity", "Point Lookout", "Redland"],
-      "domain_terms": ["works", "maintenance", "facilities", "events", "tourism", "community", "digital", "communications", "waste", "transport"],
-      "pipeline_terms": ["grants", "ledger", "events", "noticeboard", "resilience"],
+      "domain_terms": ["works", "maintenance", "facilities", "skatepark", "LiDAR", "digital twin", "tourism", "community", "waste", "transport"],
+      "pipeline_terms": ["grants", "ledger", "events", "noticeboard", "resilience", "aura"],
       "search_url": "https://www.redland.qld.gov.au/Business-and-investment/Doing-business-with-Council/Current-and-upcoming-tenders"
     },
     {
@@ -23,8 +23,8 @@
       "pipeline_key": "state-procurement-watch",
       "intent": "Find Queensland Government opportunities connected to Minjerribah, Redlands, transport, tourism, protected areas, resilience, housing, digital inclusion and public services.",
       "place_terms": ["Minjerribah", "North Stradbroke", "Quandamooka", "Redland", "Moreton Bay", "Gumpi"],
-      "domain_terms": ["tourism", "ranger", "protected area", "conservation", "ferry", "transport", "resilience", "housing", "digital", "health", "community services"],
-      "pipeline_terms": ["digital-twin", "civilisation-of-sand", "resilience", "events", "mineral-moonshots"],
+      "domain_terms": ["ferry terminal", "marine", "civil", "pontoon", "transport", "tunnelling", "geotechnical", "robotics", "maker", "circular materials", "digital twin", "resilience"],
+      "pipeline_terms": ["digital-twin", "civilisation-of-sand", "resilience", "events", "mineral-moonshots", "aura"],
       "search_url": "https://qtenders.hpw.qld.gov.au/"
     },
     {
@@ -36,8 +36,8 @@
       "pipeline_key": "federal-procurement-watch",
       "intent": "Find federal opportunities where a local company, project vehicle, partner, subcontract lane or pipeline could realistically fit or learn from the market.",
       "place_terms": ["Queensland", "Redland", "North Stradbroke", "Minjerribah", "Indigenous", "regional"],
-      "domain_terms": ["health", "disability", "aged care", "environment", "digital inclusion", "disaster", "tourism", "community", "research", "training"],
-      "pipeline_terms": ["grants", "ledger", "resilience", "digital-twin", "aura"],
+      "domain_terms": ["infrastructure", "marine", "transport", "robotics", "research", "training", "environment", "digital twin", "disaster", "community"],
+      "pipeline_terms": ["grants", "ledger", "resilience", "digital-twin", "aura", "civilisation-of-sand"],
       "search_url": "https://www.tenders.gov.au/atm"
     },
     {
@@ -51,7 +51,7 @@
       "place_terms": ["Quandamooka", "Minjerribah", "North Stradbroke", "Aboriginal", "Torres Strait Islander", "First Nations"],
       "domain_terms": ["Indigenous Procurement Policy", "Aboriginal business", "cultural heritage", "Country", "ranger", "tourism", "community controlled", "capacity building"],
       "pipeline_terms": ["ledger", "grants", "events", "resilience", "mineral-moonshots"],
-      "search_url": "https://www.niaa.gov.au/our-work/employment-and-economic-development/indigenous-procurement-policies-jurisdiction"
+      "search_url": "https://www.niaa.gov.au/our-work/employment-and-economic-development/indigenous-procurement-policy-ipp"
     },
     {
       "title": "Awarded contracts and pattern learning",

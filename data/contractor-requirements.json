@@ -1,0 +1,305 @@
+{
+  "reviewed_at": "2026-07-25",
+  "scope": "Plain-English contractor readiness for Australian, Queensland and Commonwealth procurement. Every live approach to market can add, remove or change requirements.",
+  "public_boundary": "This data is general information, not legal, tax, financial, insurance, engineering or procurement advice. Check the live tender pack and obtain professional advice before forming an entity, signing a collaboration agreement or accepting a contract.",
+  "vehicle_options": [
+    {
+      "id": "sole-trader",
+      "title": "Sole trader",
+      "best_fit": "Testing small, lower-risk services where one person genuinely controls and delivers the work.",
+      "watch": "You carry the business debts and liabilities personally. A larger or higher-risk contract may justify a different structure.",
+      "source_url": "https://business.gov.au/planning/business-structures-and-types/business-structures/choose-your-business-structure"
+    },
+    {
+      "id": "company",
+      "title": "Company",
+      "best_fit": "A separate legal entity for an ongoing delivery business, staff, assets, partners and larger contractual risk.",
+      "watch": "Directors have legal duties. The company needs an ACN, its own ABN and TFN, annual review and proper records.",
+      "source_url": "https://business.gov.au/registrations/register-a-company"
+    },
+    {
+      "id": "incorporated-association",
+      "title": "Queensland incorporated association",
+      "best_fit": "A not-for-profit community group with at least 7 members, a committee, rules and a Queensland address.",
+      "watch": "It is a legal entity and can contract, but its not-for-profit purpose, rules, reporting and committee authority still control what it may do.",
+      "source_url": "https://www.qld.gov.au/community/fair-trading/associations-charities-and-non-profits/incorporated-associations/set-up-an-incorporated-association"
+    },
+    {
+      "id": "indigenous-corporation",
+      "title": "Aboriginal and Torres Strait Islander corporation",
+      "best_fit": "A First Nations-controlled corporation formed under the CATSI Act with an appropriate membership and governance base.",
+      "watch": "This is a real governance choice, not a procurement shortcut. ORIC registration and Indigenous Procurement Policy eligibility have their own rules.",
+      "source_url": "https://www.oric.gov.au/start-corporation"
+    },
+    {
+      "id": "partner-route",
+      "title": "Partner, consortium or subcontract route",
+      "best_fit": "A group or young business contributes a clear delivery lane while a capable existing entity leads the contract.",
+      "watch": "Use a written agreement. The prime remains answerable to government and usually remains responsible for subcontracted work.",
+      "source_url": "https://www.business.qld.gov.au/running-business/marketing-sales/tendering/improve-approach/competitive/collaborative"
+    }
+  ],
+  "universal_baseline": [
+    {
+      "id": "authority",
+      "title": "Legal identity and signing authority",
+      "plain_rule": "Name the exact legal entity that will tender and the person authorised to bind it.",
+      "evidence": "Legal name, ABN, ACN or incorporation number, registered address, governing-rule check and written delegation or board resolution where needed.",
+      "source_url": "https://business.gov.au/guide/starting"
+    },
+    {
+      "id": "registrations",
+      "title": "Business and tax registrations",
+      "plain_rule": "Hold the registrations that apply to the chosen structure and expected turnover.",
+      "evidence": "ABN, TFN, business name if needed, GST status, PAYG withholding status and director ID for company directors.",
+      "source_url": "https://register.business.gov.au/"
+    },
+    {
+      "id": "licences",
+      "title": "Licences, permits and professional registrations",
+      "plain_rule": "The people and entities doing regulated work must hold the right current authority for that work and location.",
+      "evidence": "Licence register extracts, certificates, qualifications, RPEQ or other professional registration and an expiry register.",
+      "source_url": "https://ablis.business.gov.au/"
+    },
+    {
+      "id": "insurance",
+      "title": "Insurance matched to the contract",
+      "plain_rule": "Do not guess the cover. Check the tender's types, limits, exclusions, territory, run-off period and subcontractor conditions.",
+      "evidence": "Current certificates of currency and broker confirmation for public liability, professional indemnity, workers compensation, motor, cyber or contract works where required.",
+      "source_url": "https://business.gov.au/risk-management/insurance/types-of-business-insurance"
+    },
+    {
+      "id": "workforce",
+      "title": "Workforce law, safety and super",
+      "plain_rule": "Classify workers honestly, pay lawful entitlements, manage WHS and hold workers compensation cover where required.",
+      "evidence": "Employment or contractor records, awards check, payroll and super records, WHS system, incident process and WorkCover policy.",
+      "source_url": "https://business.gov.au/people/contractors/contractor-responsibilities"
+    },
+    {
+      "id": "finance",
+      "title": "Financial capacity and cashflow",
+      "plain_rule": "Show that the entity can fund wages, materials, travel, insurance, reporting and delays until payment arrives.",
+      "evidence": "Costed price, cashflow forecast, accounts, tax status, credit or finance plan and financial-capacity evidence requested by the buyer.",
+      "source_url": "https://business.gov.au/guide/starting"
+    },
+    {
+      "id": "delivery-proof",
+      "title": "Capability and delivery proof",
+      "plain_rule": "Evidence must support the exact scope being promised.",
+      "evidence": "Comparable projects, outcomes, photos with permission, referees, key-person CVs, methods, equipment, quality controls and honest limits.",
+      "source_url": "https://www.business.qld.gov.au/running-business/marketing-sales/tendering/improve-approach/capability/steps"
+    },
+    {
+      "id": "information",
+      "title": "Privacy, confidentiality and cyber safety",
+      "plain_rule": "Keep tender material, personal information, buyer data, credentials and commercial-in-confidence records in the correct private system.",
+      "evidence": "Access controls, data map, backup and retention rules, incident process, approved AI-use boundary and contract-specific security controls.",
+      "source_url": "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/essential-eight"
+    },
+    {
+      "id": "conflicts",
+      "title": "Conflicts, probity and truthful declarations",
+      "plain_rule": "Declare actual, potential and perceived conflicts. Never collude, offer inducements or invent compliance.",
+      "evidence": "Conflict register, declarations, gifts policy, bid-team confidentiality rules and a record of assumptions and clarifications.",
+      "source_url": "https://www.business.qld.gov.au/running-business/marketing-sales/tendering/supply-queensland-government/procurement-assurance-model/assurance-assessment-investigation-information-guide"
+    },
+    {
+      "id": "contract-review",
+      "title": "Contract and risk review",
+      "plain_rule": "Read the proposed contract before pricing and before saying yes.",
+      "evidence": "Reviewed departures, indemnity and liability position, intellectual property, insurance, payment, security, variation, termination, dispute and recordkeeping obligations.",
+      "source_url": "https://business.gov.au/people/contractors/prepare-a-contract"
+    }
+  ],
+  "queensland": [
+    {
+      "id": "qld-portal",
+      "title": "Create the Queensland supplier profile",
+      "applies_when": "General market visibility and supplier registration.",
+      "action": "Create and maintain a free Supplier Portal profile with accurate categories and contact details; separately use QTenders and the forward pipeline.",
+      "source_url": "https://www.business.qld.gov.au/running-business/marketing-sales/tendering/supply-queensland-government/resources"
+    },
+    {
+      "id": "qld-code",
+      "title": "Self-assess against the Supplier Code",
+      "applies_when": "All Queensland Government procurement activities, regardless of value.",
+      "action": "Check legal compliance, ethics, workplace practices, human rights, environment, conflicts, records and supply-chain behaviour before giving the tender warranty.",
+      "source_url": "https://www.business.qld.gov.au/running-business/marketing-sales/tendering/supply-queensland-government/supplier-code-conduct"
+    },
+    {
+      "id": "qld-pam",
+      "title": "Prepare for procurement assurance",
+      "applies_when": "Working under a Queensland Government contract from 1 January 2026.",
+      "action": "Retain evidence of Code compliance. Principal contractors must flow Code obligations and measurable purposeful-procurement commitments into subcontracts.",
+      "source_url": "https://www.business.qld.gov.au/running-business/marketing-sales/tendering/supply-queensland-government/procurement-assurance-model/guidance-suppliers"
+    },
+    {
+      "id": "qld-purpose",
+      "title": "Answer only the relevant public-purpose outcomes",
+      "applies_when": "The quote or tender includes local, economic, environmental, social or governance outcomes.",
+      "action": "Use specific, costed and measurable commitments. Do not promise every policy objective. Significant procurement uses a weighted purposeful-procurement criterion unless a reason is documented.",
+      "source_url": "https://www.business.qld.gov.au/running-business/marketing-sales/tendering/supply-queensland-government/supplier-guide/supporting-purposeful-public-procurement"
+    },
+    {
+      "id": "qld-pqc",
+      "title": "Check building prequalification",
+      "applies_when": "Direct Queensland Government building contracts over $1 million, or covered building consultancy commissions.",
+      "action": "Check PQC eligibility, licences, experience, ethical-supplier evidence and financial capacity before treating the tender as leadable.",
+      "source_url": "https://www.business.qld.gov.au/industries/building-property-development/building-construction/supply-queensland-government/prequalifying-major-projects/prequalification-system"
+    },
+    {
+      "id": "qld-qbuild",
+      "title": "Use the minor works and maintenance route",
+      "applies_when": "QBuild minor works, service maintenance or work below the PQC major-project threshold.",
+      "action": "Register with QBuild and meet the category, licence, insurance and contract requirements for the work offered.",
+      "source_url": "https://www.business.qld.gov.au/industries/building-property-development/building-construction/supply-queensland-government/minor-works-maintenance/qbuild"
+    },
+    {
+      "id": "qld-tmr",
+      "title": "Check civil and transport schemes",
+      "applies_when": "Road, bridge, asphalt or specialist transport infrastructure work.",
+      "action": "Check the TMR Infrastructure Project Delivery System and National Prequalification System for the required contractor class and specialist registration.",
+      "source_url": "https://www.tmr.qld.gov.au/business-industry/Technical-standards-publications/TIPDS/Volume-3"
+    }
+  ],
+  "commonwealth": [
+    {
+      "id": "cwlth-austender",
+      "title": "Register on AusTender and the Supplier Portal",
+      "applies_when": "Finding Commonwealth opportunities, plans, panels and awards.",
+      "action": "Create the account, alerts and supplier profile. Keep business characteristics accurate; the Supplier Portal opened to all businesses from July 2026.",
+      "source_url": "https://www.tenders.gov.au/"
+    },
+    {
+      "id": "cwlth-australian-business",
+      "title": "Know whether the entity is an Australian business",
+      "applies_when": "Commonwealth procurement rules give Australian businesses or SMEs a defined pathway.",
+      "action": "Be ready to evidence ownership or Australian market listing, Australian tax residence and the principal place of business in Australia.",
+      "source_url": "https://www.finance.gov.au/government/procurement/defining-australian-business-commonwealth-procurement/guidance-definition-australian-or-new-zealand-business"
+    },
+    {
+      "id": "cwlth-code",
+      "title": "Prepare for the Commonwealth Supplier Code",
+      "applies_when": "Commonwealth forms of contract, subject to documented exceptions.",
+      "action": "Build proportionate evidence for ethics, conflicts, governance, tax, records, WHS, workplace rights, human rights, environment, security and subcontractor compliance.",
+      "source_url": "https://www.finance.gov.au/government/procurement/ethical-conduct-suppliers/commonwealth-supplier-code-conduct/commonwealth-supplier-code-conduct"
+    },
+    {
+      "id": "cwlth-pcp",
+      "title": "Run the procurement-connected policy triggers",
+      "applies_when": "The entity size, contract value, category, location or funding activates an extra policy.",
+      "action": "Check the live request and the Finance policy table for Indigenous participation, tax records, payment times, gender equality, skills, environmental plans and Australian industry participation.",
+      "source_url": "https://www.finance.gov.au/government/procurement/buying-australian-government/procurement-connected-policies"
+    },
+    {
+      "id": "cwlth-security",
+      "title": "Treat security as scope-specific",
+      "applies_when": "The work handles government information, systems, facilities, people, Defence assets or classified material.",
+      "action": "Read the contract security schedule. Do not claim Essential Eight, IRAP, clearances, PSPF alignment or DISP membership unless the evidence exists and the requirement applies.",
+      "source_url": "https://www.protectivesecurity.gov.au/"
+    }
+  ],
+  "triggered_overlays": [
+    {
+      "id": "cpr-nce",
+      "trigger": "Commonwealth non-construction procurement by a non-corporate Commonwealth entity at $125,000 or more",
+      "effect": "Division 2 of the Commonwealth Procurement Rules generally applies unless an exemption applies.",
+      "source_url": "https://www.finance.gov.au/government/procurement/commonwealth-procurement-rules/procurement-method"
+    },
+    {
+      "id": "cpr-cce",
+      "trigger": "Non-construction procurement by a prescribed corporate Commonwealth entity at $400,000 or more",
+      "effect": "Division 2 generally applies unless an exemption applies.",
+      "source_url": "https://www.finance.gov.au/government/procurement/commonwealth-procurement-rules/procurement-method"
+    },
+    {
+      "id": "cpr-construction",
+      "trigger": "Commonwealth construction services procurement at $7.5 million or more",
+      "effect": "Division 2 generally applies unless an exemption applies.",
+      "source_url": "https://www.finance.gov.au/government/procurement/commonwealth-procurement-rules/procurement-method"
+    },
+    {
+      "id": "str",
+      "trigger": "Commonwealth procurement valued at $4 million or more",
+      "effect": "The approach may require satisfactory Statements of Tax Record for the tenderer and known first-tier subcontractors.",
+      "source_url": "https://sellingtogov.finance.gov.au/faq/minimum-requirements"
+    },
+    {
+      "id": "wgea",
+      "trigger": "A tenderer with 100 or more Australian employees and a procurement at or above the relevant Commonwealth threshold",
+      "effect": "A WGEA letter of compliance may be required with the submission or before contract.",
+      "source_url": "https://sellingtogov.finance.gov.au/faq/minimum-requirements"
+    },
+    {
+      "id": "ipp-msa",
+      "trigger": "Remote Commonwealth procurement, or other procurement wholly delivered in Australia valued from $80,000 to $200,000 GST inclusive",
+      "effect": "The Indigenous Procurement Policy Mandatory Set Aside applies, subject to stated exceptions.",
+      "source_url": "https://www.niaa.gov.au/our-work/employment-and-economic-development/indigenous-procurement-policy-ipp"
+    },
+    {
+      "id": "ipp-mmr",
+      "trigger": "Commonwealth contract wholly delivered in Australia valued at $7.5 million or more in one of 19 specified industries",
+      "effect": "Mandatory Minimum Indigenous Participation Requirements apply.",
+      "source_url": "https://www.niaa.gov.au/our-work/employment-and-economic-development/indigenous-procurement-policy-ipp"
+    },
+    {
+      "id": "skills",
+      "trigger": "Eligible Commonwealth construction, maintenance or ICT procurement valued at $10 million or more",
+      "effect": "Australian Skills Guarantee targets may apply.",
+      "source_url": "https://www.finance.gov.au/government/procurement/buying-australian-government/procurement-connected-policies"
+    },
+    {
+      "id": "environment",
+      "trigger": "Commonwealth construction procurement at $7.5 million or more, or covered furniture, ICT goods or textiles procurement at $1 million or more",
+      "effect": "A Supplier Environmental Sustainability Plan and reporting may be required.",
+      "source_url": "https://www.finance.gov.au/government/procurement/buying-australian-government/procurement-connected-policies"
+    },
+    {
+      "id": "caip",
+      "trigger": "Commonwealth procurement valued at $20 million or more",
+      "effect": "The successful tenderer may need a Commonwealth Australian Industry Participation plan.",
+      "source_url": "https://www.finance.gov.au/government/procurement/buying-australian-government/procurement-connected-policies"
+    },
+    {
+      "id": "disp",
+      "trigger": "Defence tender or contract requiring classified access, weapons or explosive ordnance, base security services, or DISP as a contract condition",
+      "effect": "The required Defence Industry Security Program membership level must be in place.",
+      "source_url": "https://www.defence.gov.au/business-industry/industry-governance/industry-regulators/defence-industry-security-program"
+    }
+  ],
+  "strategic_examples": [
+    {
+      "id": "windemere",
+      "title": "Windemere skate bowl refurbishment",
+      "status": "Active council tender; internal finish line 5 August 2026; official close 2:00 pm 6 August 2026",
+      "role_model": "VFG Skateparks leads technical delivery; Luke runs local bid systems and digital evidence; qualified specialists own regulated sign-off.",
+      "next_action": "Complete the requirements matrix, field-proof Aura Scan to Twin, lock specialist evidence and freeze the approved response before portal day.",
+      "source_url": "https://www.redland.qld.gov.au/Business-and-investment/Doing-business-with-Council/Current-and-upcoming-tenders"
+    },
+    {
+      "id": "gumpi-ferry",
+      "title": "Dunwich (Gumpi) Ferry Terminal Upgrade",
+      "status": "$41 million SEQ City Deal commitment in planning; business case expected in late 2026",
+      "role_model": "Prepare qualified local packages and partner with civil, marine, building, design and environmental primes able to carry the main contract.",
+      "next_action": "Track the project and procurement pipeline, map likely work packages and build prequalification, company, evidence and partner readiness before release.",
+      "source_url": "https://www.tmr.qld.gov.au/projects/dunwich-gumpi-ferry-terminal-upgrade"
+    },
+    {
+      "id": "sandworm-grain-by-grain",
+      "title": "Sandworm and Grain by Grain",
+      "status": "Long-horizon proposal and capability programme, not a current government project or tender",
+      "role_model": "Use research, simulation, robotics, maker training, digital twins and material testing to build future supplier capability rung by rung.",
+      "next_action": "Separate proposed outcomes from evidence, define testable work packages and build the material, engineering, approvals and partner chain.",
+      "source_url": "https://auraofintelligence.github.io/grain-by-grain/"
+    }
+  ],
+  "human_gates": [
+    "A human confirms the exact legal tenderer and authorised signatory.",
+    "A human reads every addendum and confirms mandatory attendance, format and deadline rules.",
+    "A qualified person confirms licences, engineering, safety, insurance, tax, employment, privacy and security claims.",
+    "Every partner approves its role, price, evidence, intellectual property and public/private boundary.",
+    "A human approves the final price, departures, declarations and contract-risk position.",
+    "Only an authorised human lodges the response and retains the portal receipt.",
+    "No LLM accepts a contract, signs a declaration, invents evidence or silently changes a lodged response."
+  ]
+}

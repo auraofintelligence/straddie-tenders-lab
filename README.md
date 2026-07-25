@@ -23,12 +23,18 @@ http://localhost:4188/
 ## Main Pages
 
 - `index.html`: public entry point.
+- `contractor-guide.html`: complete path from market watch to legal vehicle, evidence, bid control and lodgement.
+- `business-setup.html`: sole trader, company, incorporated association, Indigenous corporation and partner-route decisions.
+- `partnering-and-auspicing.html`: prime contractor, subcontractor, consortium and joint-venture models.
 - `tender-sources.html`: source ladder across Council, Queensland, Australian Government and First Nations procurement.
 - `tender-watchlist.html`: calm source-watch list for upcoming, open, closing and awarded opportunities.
 - `council-tenders.html`: Redland City Council and VendorPanel lane.
 - `queensland-tenders.html`: QTenders, eTender, supplier portal and Queensland procurement policy lane.
 - `australian-tenders.html`: AusTender and federal supplier lane.
 - `first-nations-procurement.html`: Indigenous procurement, cultural authority and partnership-readiness lane.
+- `semi-automated-bids.html`: source-led LLM workflow with named human approval gates.
+- `windemere-case-study.html`: active Windemere/VFG/Aura Scan to Twin bid-production case.
+- `major-project-pathway.html`: Gumpi ferry terminal company-building case and the Sandworm/Grain by Grain capability ladder.
 - `keyword-search.html`: repeatable keyword search lanes and structured tender timeline data for weekly agent refreshes.
 - `bid-readiness.html`: plain-English readiness steps, capability statement prompts and response checks.
 - `network.html`: reciprocal project map for grants, ledger, Ready S.E.T., Sandworm, Mineral Moonshots, the Civilisation of Sand epoch and related Straddie labs.
@@ -41,6 +47,17 @@ http://localhost:4188/
 - `data/tender-timeline.json`: pipeline-readable tender/timeline records updated by the weekly scan.
 - `data/checklists.json`: bid-readiness steps and response checks.
 - `data/network.json`: companion repo links and why each one matters.
+- `data/contractor-requirements.json`: machine-readable entity, Queensland, Commonwealth and triggered-policy requirements.
+
+## Contractor Templates
+
+- `profiles/templates/contractor-readiness-profile.md`: one source of truth for each legal tenderer.
+- `profiles/templates/opportunity-requirements-matrix.md`: every requirement, owner, evidence item and decision.
+- `profiles/templates/partnering-agreement-questions.md`: commercial and delivery questions to settle before a joint bid.
+- `profiles/templates/semi-automated-tender-agent.md`: working instructions for a source-led, human-controlled LLM run.
+- `profiles/templates/major-project-company-stack.md`: operating-company, work-package, partner and 90-day readiness plan.
+
+Separate design notes for the P4A/Cyber-Republic process live in `notes/p4a-cyber-republic-procurement-notes.md`.
 
 ## Hero Images
 

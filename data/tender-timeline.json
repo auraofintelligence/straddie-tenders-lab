@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20",
+  "generated_at": "2026-07-25",
   "next_scan_due": "2026-07-27",
   "scan_cadence": "weekly",
   "pipeline_contract": {
@@ -61,10 +61,10 @@
       "source_key": "redland-current-upcoming",
       "open_date": "tbc",
       "close_date": "2026-08-06",
-      "last_checked": "2026-07-20",
-      "summary": "Redland City Council seeks a principal contractor for design and construction of a skate park at Windemere Road Park, Alexandra Hills. Tender documents are available through VendorPanel.",
-      "pipeline_tags": ["events", "noticeboard", "resilience"],
-      "next_action": "Check the VendorPanel tender pack, mandatory 15 July 2026 site inspection details and local subcontractor fit before deciding whether this is a lead, partner or learning record."
+      "last_checked": "2026-07-25",
+      "summary": "Redland City Council seeks a principal contractor for design and construction of a skate park at Windemere Road Park, Alexandra Hills. Council lists a 2:00 pm 6 August 2026 close. The active VFG/Luke workflow uses 5 August as the internal finish line.",
+      "pipeline_tags": ["events", "noticeboard", "resilience", "digital-twin", "aura"],
+      "next_action": "Complete the requirements matrix, field-proof the Aura Scan to Twin evidence path, lock partner and specialist inputs, and freeze the approved response by 5 August."
     },
     {
       "id": "redland-pdg-20857-1-shade-sail-lions-boulevard-park",
@@ -135,6 +135,20 @@
       "summary": "Weekly QTenders, eTender and Queensland supplier search lane for Minjerribah, Redland, transport, tourism, environment, resilience, digital and community service terms.",
       "pipeline_tags": ["digital-twin", "civilisation-of-sand", "film-club", "cinematic-universe", "game-world", "web3-theory", "resilience", "events", "mineral-moonshots"],
       "next_action": "Search QTenders, eTender and related Queensland procurement guidance. Record only official opportunity links and dates."
+    },
+    {
+      "id": "qld-gumpi-ferry-terminal-upgrade",
+      "title": "Dunwich (Gumpi) Ferry Terminal Upgrade",
+      "level": "queensland",
+      "level_label": "Queensland Government",
+      "status": "project-planning",
+      "source_key": "gumpi-ferry-upgrade",
+      "open_date": "tbc",
+      "close_date": "tbc",
+      "last_checked": "2026-07-25",
+      "summary": "Official $41 million SEQ City Deal commitment led by Queensland Government with Australian Government and Redland City Council funding. The project is in planning; its business case is expected in late 2026 and planning is expected to complete in 2027.",
+      "pipeline_tags": ["digital-twin", "resilience", "civilisation-of-sand", "aura", "mineral-moonshots"],
+      "next_action": "Do not treat as an open tender. Track TMR, QTenders and forward procurement; map likely packages, prequalification, prime partners and local supplier evidence."
     },
     {
       "id": "austender-weekly-source-watch",

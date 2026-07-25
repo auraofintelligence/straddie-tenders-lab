@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A source-led, human-controlled LLM workflow for Queensland and Commonwealth tender preparation.">
+    <title>Semi-automated Bids | Straddie Tenders Lab</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header"></header>
+    <main id="main">
+      <section class="guide-hero">
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <p class="guide-kicker">Human-controlled automation</p>
+            <h1>Let the machine organise. Let named people decide.</h1>
+            <p class="hero-lede">An LLM can read packs, build matrices, find gaps and draft from approved evidence. It does not choose the legal tenderer, invent proof, approve price, accept risk, sign declarations or lodge the bid.</p>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="section-heading">
+          <h2>The bid pipeline.</h2>
+          <p>Keep the source pack immutable. Give every extracted claim a page, clause or official URL. Make uncertainty visible.</p>
+        </div>
+        <div class="workflow-grid">
+          <article class="workflow-step"><strong>1</strong><h3>Ingest</h3><p>Save the request, contract, schedules, forms, briefings and addenda. Hash or version the files and record the official portal deadline.</p></article>
+          <article class="workflow-step"><strong>2</strong><h3>Extract</h3><p>Pull out mandatory conditions, weighted criteria, deliverables, dates, pricing structure, declarations, licences, insurance and contract risks.</p></article>
+          <article class="workflow-step"><strong>3</strong><h3>Trigger</h3><p>Run value, buyer, work type, workforce, location, security, Indigenous participation and prequalification rules against the live pack.</p></article>
+          <article class="workflow-step"><strong>4</strong><h3>Assign</h3><p>Give every requirement an owner, evidence source, status and deadline. Mark hard fail, clarification needed or response opportunity.</p></article>
+          <article class="workflow-step"><strong>5</strong><h3>Decide</h3><p>Run bid/no-bid with the prime, specialists and commercial lead. Stop if mandatory capacity cannot be proven.</p></article>
+          <article class="workflow-step"><strong>6</strong><h3>Draft</h3><p>Write only from the approved evidence library. Separate confirmed facts, partner commitments, assumptions and proposed methods.</p></article>
+          <article class="workflow-step"><strong>7</strong><h3>Review</h3><p>Technical, legal, financial, safety, cultural, privacy and partner reviewers approve their own claims and departures.</p></article>
+          <article class="workflow-step"><strong>8</strong><h3>Lodge</h3><p>An authorised human checks the portal fields, filenames, declarations, time zone and final upload. Save the receipt and final lodged set.</p></article>
+        </div>
+      </section>
+      <section class="section tight">
+        <div class="split">
+          <div class="list-panel">
+            <p class="section-label">Machine lane</p>
+            <h3>Good automation work</h3>
+            <ul class="check-list">
+              <li>File inventory, text extraction and clause indexing.</li>
+              <li>Requirements matrix and addendum comparison.</li>
+              <li>Official-source checks and policy trigger suggestions.</li>
+              <li>Evidence matching, gap lists and deadline reminders.</li>
+              <li>Draft structure, word-count control and consistency checks.</li>
+              <li>Filename, cross-reference and completeness checks.</li>
+            </ul>
+          </div>
+          <div class="list-panel">
+            <p class="section-label">Human lane</p>
+            <h3>Authority stays here</h3>
+            <ul class="check-list">
+              <li>Legal tenderer, partner model and authorised signatory.</li>
+              <li>Licences, professional opinions and engineering acceptance.</li>
+              <li>Price, cashflow, insurance, tax and contract risk.</li>
+              <li>Cultural authority, community claims and permissions.</li>
+              <li>Conflicts, declarations and use of confidential material.</li>
+              <li>Final approval, portal lodgement and contract acceptance.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="section-heading">
+          <h2>The minimum data model.</h2>
+          <p>Each opportunity should be readable by a person and a machine.</p>
+        </div>
+        <div class="table-wrap">
+          <table class="decision-table">
+            <thead><tr><th>Object</th><th>Required fields</th><th>Control</th></tr></thead>
+            <tbody>
+              <tr><td><strong>Opportunity</strong></td><td>Buyer, portal ID, title, scope, value, close date, close time, time zone, briefing, contact, addenda.</td><td>Official portal is the source of truth.</td></tr>
+              <tr><td><strong>Requirement</strong></td><td>Clause, type, mandatory/weighted, response format, owner, due date, status.</td><td>Every row links back to source text.</td></tr>
+              <tr><td><strong>Evidence</strong></td><td>Claim, file, owner, approval, expiry, permitted use, confidentiality, source.</td><td>No evidence enters a draft without an owner.</td></tr>
+              <tr><td><strong>Partner</strong></td><td>Legal entity, ABN, role, workshare, price, licences, insurance, declarations, approval.</td><td>Partner approves its own material.</td></tr>
+              <tr><td><strong>Decision</strong></td><td>Bid/no-bid, reason, approvers, conditions, unresolved risks, timestamp.</td><td>LLM recommends; authorised people decide.</td></tr>
+              <tr><td><strong>Lodgement</strong></td><td>Final files, hashes or version IDs, signatory, portal user, submitted time, receipt.</td><td>Retain the exact lodged set.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <section class="section tight">
+        <div class="callout">
+          <h3>Start with the templates already in this repo.</h3>
+          <p><a href="profiles/templates/semi-automated-tender-agent.md">Agent brief</a>, <a href="profiles/templates/opportunity-requirements-matrix.md">requirements matrix</a>, <a href="profiles/templates/contractor-readiness-profile.md">contractor profile</a> and <a href="data/contractor-requirements.json">state/federal rules data</a>.</p>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer"></footer>
+    <button class="to-top" type="button" data-to-top aria-label="Back to top">Top</button>
+    <script src="assets/data.js"></script>
+    <script src="assets/app.js"></script>
+  </body>
+</html>
