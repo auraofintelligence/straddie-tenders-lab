@@ -2,7 +2,9 @@ from __future__ import annotations
 
 import json
 import sys
+from html.parser import HTMLParser
 from pathlib import Path
+from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -120,22 +122,92 @@ def validate_network() -> None:
     require_fields("data/network.json", network, ["title", "tag", "summary", "url", "repo"])
 
 
+def validate_contractor_requirements() -> None:
+    data = read_json("data/contractor-requirements.json")
+    for key in [
+        "reviewed_at",
+        "scope",
+        "vehicle_options",
+        "universal_baseline",
+        "queensland",
+        "commonwealth",
+        "triggered_overlays",
+        "strategic_examples",
+        "human_gates",
+    ]:
+        if not data.get(key):
+            fail(f"data/contractor-requirements.json missing {key}")
+    list_fields = {
+        "vehicle_options": ["id", "title", "best_fit", "watch", "source_url"],
+        "universal_baseline": ["id", "title", "plain_rule", "evidence", "source_url"],
+        "queensland": ["id", "title", "applies_when", "action", "source_url"],
+        "commonwealth": ["id", "title", "applies_when", "action", "source_url"],
+        "triggered_overlays": ["id", "trigger", "effect", "source_url"],
+        "strategic_examples": ["id", "title", "status", "role_model", "next_action", "source_url"],
+    }
+    for key, fields in list_fields.items():
+        rows = data[key]
+        if not isinstance(rows, list) or not rows:
+            fail(f"data/contractor-requirements.json needs {key}")
+        require_fields(f"data/contractor-requirements.json {key}", rows, fields)
+        ids = [row["id"] for row in rows]
+        if len(ids) != len(set(ids)):
+            fail(f"data/contractor-requirements.json {key} ids must be unique")
+        for row in rows:
+            if not row["source_url"].startswith(("https://", "http://")):
+                fail(f"Contractor requirement URL is not absolute: {row['id']}")
+    if not isinstance(data["human_gates"], list) or not all(data["human_gates"]):
+        fail("data/contractor-requirements.json human_gates must be a populated list")
+
+
+class LinkParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__()
+        self.links: list[str] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag not in {"a", "link", "script", "img", "source"}:
+            return
+        attr_name = "href" if tag in {"a", "link"} else "src"
+        for name, value in attrs:
+            if name == attr_name and value:
+                self.links.append(value)
+
+
 def validate_local_links() -> None:
-    required_pages = [
+    required_pages = {
         "index.html",
+        "contractor-guide.html",
+        "business-setup.html",
+        "partnering-and-auspicing.html",
         "tender-sources.html",
         "tender-watchlist.html",
         "council-tenders.html",
         "queensland-tenders.html",
         "australian-tenders.html",
         "first-nations-procurement.html",
+        "semi-automated-bids.html",
+        "windemere-case-study.html",
+        "major-project-pathway.html",
         "keyword-search.html",
         "bid-readiness.html",
         "network.html",
-    ]
+    }
     for page in required_pages:
         if not (ROOT / page).exists():
             fail(f"Missing page: {page}")
+    for page in sorted(required_pages):
+        parser = LinkParser()
+        parser.feed((ROOT / page).read_text(encoding="utf-8"))
+        for raw_link in parser.links:
+            parsed = urlsplit(raw_link)
+            if parsed.scheme or parsed.netloc or not parsed.path:
+                continue
+            local_path = (ROOT / unquote(parsed.path)).resolve()
+            if ROOT.resolve() not in local_path.parents and local_path != ROOT.resolve():
+                fail(f"{page} links outside the site: {raw_link}")
+            if not local_path.exists():
+                fail(f"{page} has missing local link: {raw_link}")
 
 
 def validate_heroes() -> None:
@@ -166,6 +238,7 @@ def main() -> None:
     validate_timeline(source_keys)
     validate_checklists()
     validate_network()
+    validate_contractor_requirements()
     validate_local_links()
     validate_heroes()
     print("Validation passed.")

@@ -77,6 +77,61 @@
     "last_checked": "Checked 2026-07-04"
   },
   {
+    "key": "qld-supplier-code-2026",
+    "name": "Queensland Government Supplier Code of Conduct 2026",
+    "level": "queensland",
+    "level_label": "Queensland Government",
+    "status": "Current supplier conduct standard applying across Queensland Government procurement",
+    "best_for": "Self-assessing legal compliance, ethical conduct, workplace practices, human rights, environment, conflicts and supply-chain behaviour.",
+    "watch_action": "Build the evidence before giving the tender warranty; keep corrective actions and non-compliance reporting under control.",
+    "url": "https://www.business.qld.gov.au/running-business/marketing-sales/tendering/supply-queensland-government/supplier-code-conduct",
+    "last_checked": "Checked 2026-07-25"
+  },
+  {
+    "key": "qld-procurement-assurance",
+    "name": "Procurement Assurance Model supplier guidance",
+    "level": "queensland",
+    "level_label": "Queensland Government",
+    "status": "Supplier evidence and assurance requirements from 1 January 2026",
+    "best_for": "Preparing Code evidence and flowing purposeful-procurement commitments into subcontracts.",
+    "watch_action": "Keep compliance evidence ready for assessment, investigation and contract reporting.",
+    "url": "https://www.business.qld.gov.au/running-business/marketing-sales/tendering/supply-queensland-government/procurement-assurance-model/guidance-suppliers",
+    "last_checked": "Checked 2026-07-25"
+  },
+  {
+    "key": "qld-pqc",
+    "name": "Queensland Government building prequalification",
+    "level": "queensland",
+    "level_label": "Queensland Government",
+    "status": "PQC contractor and consultant qualification system",
+    "best_for": "Checking whether a government building contract or consultancy needs PQC category, level, licence and financial-capacity approval.",
+    "watch_action": "Resolve the required prequalification before choosing the lead contractor.",
+    "url": "https://www.business.qld.gov.au/industries/building-property-development/building-construction/supply-queensland-government/prequalifying-major-projects/prequalification-system",
+    "last_checked": "Checked 2026-07-25"
+  },
+  {
+    "key": "qld-tmr-prequalification",
+    "name": "TMR civil infrastructure prequalification and registration",
+    "level": "queensland",
+    "level_label": "Queensland Transport and Main Roads",
+    "status": "Infrastructure Project Delivery System contractor and specialist schemes",
+    "best_for": "Road, bridge, asphalt and specialist transport-infrastructure work.",
+    "watch_action": "Match the package to the required TMR or National Prequalification class before forming the delivery team.",
+    "url": "https://www.tmr.qld.gov.au/business-industry/Technical-standards-publications/TIPDS/Volume-3",
+    "last_checked": "Checked 2026-07-25"
+  },
+  {
+    "key": "gumpi-ferry-upgrade",
+    "name": "Dunwich (Gumpi) Ferry Terminal Upgrade",
+    "level": "queensland",
+    "level_label": "Queensland Transport and Main Roads",
+    "status": "$41 million SEQ City Deal commitment in planning",
+    "best_for": "Tracking the business case, design, likely work packages and future procurement preparation.",
+    "watch_action": "Do not call it an open tender. Track the project page, QTenders, forward pipeline and industry briefings.",
+    "url": "https://www.tmr.qld.gov.au/projects/dunwich-gumpi-ferry-terminal-upgrade",
+    "last_checked": "Checked 2026-07-25"
+  },
+  {
     "key": "austender",
     "name": "AusTender",
     "level": "australian",
@@ -110,15 +165,59 @@
     "last_checked": "Checked 2026-07-04"
   },
   {
+    "key": "commonwealth-procurement-rules",
+    "name": "Commonwealth Procurement Rules",
+    "level": "australian",
+    "level_label": "Australian Government Department of Finance",
+    "status": "Current rules effective 17 November 2025",
+    "best_for": "Understanding value for money, Australian business participation, procurement methods, thresholds and accountable decision-making.",
+    "watch_action": "Read the current rules with the live approach to market; do not rely on an old threshold table.",
+    "url": "https://www.finance.gov.au/government/procurement/commonwealth-procurement-rules",
+    "last_checked": "Checked 2026-07-25"
+  },
+  {
+    "key": "commonwealth-supplier-code",
+    "name": "Commonwealth Supplier Code of Conduct",
+    "level": "australian",
+    "level_label": "Australian Government Department of Finance",
+    "status": "Supplier conduct obligations used with Commonwealth forms of contract",
+    "best_for": "Building evidence for ethics, conflicts, governance, tax, WHS, rights, environment, security, records and subcontractors.",
+    "watch_action": "Map each applicable obligation to an owner, record and corrective-action process.",
+    "url": "https://www.finance.gov.au/government/procurement/ethical-conduct-suppliers/commonwealth-supplier-code-conduct/commonwealth-supplier-code-conduct",
+    "last_checked": "Checked 2026-07-25"
+  },
+  {
+    "key": "commonwealth-connected-policies",
+    "name": "Commonwealth procurement-connected policies",
+    "level": "australian",
+    "level_label": "Australian Government Department of Finance",
+    "status": "Current policy trigger table",
+    "best_for": "Checking Indigenous participation, tax records, payment times, gender equality, skills, environmental plans and Australian industry participation.",
+    "watch_action": "Run the triggers against value, category, workforce, delivery location and the exact tender pack.",
+    "url": "https://www.finance.gov.au/government/procurement/buying-australian-government/procurement-connected-policies",
+    "last_checked": "Checked 2026-07-25"
+  },
+  {
+    "key": "commonwealth-australian-business",
+    "name": "Commonwealth definition of an Australian business",
+    "level": "australian",
+    "level_label": "Australian Government Department of Finance",
+    "status": "Current ownership, tax-residence and principal-place-of-business definition",
+    "best_for": "Proving Australian business status under the Commonwealth Procurement Rules.",
+    "watch_action": "Keep ownership, tax residence and principal-place-of-business evidence ready.",
+    "url": "https://www.finance.gov.au/government/procurement/defining-australian-business-commonwealth-procurement/guidance-definition-australian-or-new-zealand-business",
+    "last_checked": "Checked 2026-07-25"
+  },
+  {
     "key": "niaa-indigenous-procurement",
-    "name": "Indigenous procurement policies by jurisdiction",
+    "name": "Commonwealth Indigenous Procurement Policy",
     "level": "first-nations",
     "level_label": "National Indigenous Australians Agency",
-    "status": "Australian Government Indigenous procurement policy overview",
-    "best_for": "Understanding Indigenous Procurement Policy settings and jurisdiction differences.",
-    "watch_action": "Use alongside live tender rules; do not assume a set-aside applies unless the procurement says so.",
-    "url": "https://www.niaa.gov.au/our-work/employment-and-economic-development/indigenous-procurement-policies-jurisdiction",
-    "last_checked": "Checked 2026-07-04"
+    "status": "Current Mandatory Set Aside, participation and eligible-business policy",
+    "best_for": "Checking Indigenous business eligibility, set-aside procurement and mandatory participation requirements.",
+    "watch_action": "Use the current eligibility definition and live tender rules; ownership and control must be real.",
+    "url": "https://www.niaa.gov.au/our-work/employment-and-economic-development/indigenous-procurement-policy-ipp",
+    "last_checked": "Checked 2026-07-25"
   },
   {
     "key": "qld-economic-participation",

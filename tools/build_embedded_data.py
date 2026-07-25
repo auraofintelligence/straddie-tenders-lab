@@ -11,6 +11,7 @@ DATA_FILES = [
     "data/network.json",
     "data/tender-keywords.json",
     "data/tender-timeline.json",
+    "data/contractor-requirements.json",
 ]
 
 

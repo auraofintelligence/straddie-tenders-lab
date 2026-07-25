@@ -3,30 +3,62 @@ const navHtml = `
     <a class="brand-mark" href="index.html"><span>Straddie</span><span>Tenders Lab</span></a>
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
     <div class="nav-links" id="nav-links">
-      <a href="tender-sources.html">Sources</a>
-      <a href="tender-watchlist.html">Watchlist</a>
-      <a href="council-tenders.html">Council</a>
-      <a href="queensland-tenders.html">Queensland</a>
-      <a href="australian-tenders.html">Australian</a>
-      <a href="first-nations-procurement.html">First Nations</a>
-      <a href="keyword-search.html">Keyword Search</a>
-      <a href="bid-readiness.html">Bid Readiness</a>
-      <a href="network.html">Network</a>
+      <a href="contractor-guide.html">Contractor Guide</a>
+      <details class="nav-group">
+        <summary>Find Work</summary>
+        <div class="nav-dropdown">
+          <a href="tender-sources.html">Official Sources</a>
+          <a href="tender-watchlist.html">Watchlist</a>
+          <a href="keyword-search.html">Keyword Search</a>
+        </div>
+      </details>
+      <details class="nav-group">
+        <summary>Requirements</summary>
+        <div class="nav-dropdown">
+          <a href="council-tenders.html">Council</a>
+          <a href="queensland-tenders.html">Queensland</a>
+          <a href="australian-tenders.html">Commonwealth</a>
+          <a href="first-nations-procurement.html">First Nations</a>
+        </div>
+      </details>
+      <details class="nav-group">
+        <summary>Build a Bid</summary>
+        <div class="nav-dropdown">
+          <a href="business-setup.html">Build the Business</a>
+          <a href="partnering-and-auspicing.html">Partner or Lead</a>
+          <a href="semi-automated-bids.html">Semi-automated Bids</a>
+          <a href="bid-readiness.html">Bid Readiness</a>
+        </div>
+      </details>
+      <details class="nav-group">
+        <summary>Projects</summary>
+        <div class="nav-dropdown">
+          <a href="windemere-case-study.html">Windemere</a>
+          <a href="major-project-pathway.html">Major Projects</a>
+          <a href="network.html">Companion Network</a>
+        </div>
+      </details>
     </div>
   </nav>`;
 
 const footerHtml = `
-  <p>Straddie Tenders Lab. A public research workbench for tender readiness, not legal or procurement advice.</p>
-  <p><a href="https://auraofintelligence.github.io/stradbroke-grants-lab/">Stradbroke Grants Lab</a> | <a href="https://auraofintelligence.github.io/strange-but-true/community-ledger.html">Community Ledger</a> | <a href="network.html">Companion network</a></p>`;
+  <p>Straddie Tenders Lab. Build the vehicle, evidence, partners and bid controls before the portal deadline.</p>
+  <p><a href="contractor-guide.html">Contractor Guide</a> | <a href="https://auraofintelligence.github.io/stradbroke-grants-lab/">Stradbroke Grants Lab</a> | <a href="https://auraofintelligence.github.io/strange-but-true/community-ledger.html">Community Ledger</a> | <a href="network.html">Companion network</a></p>`;
 
 const pageSequence = [
   { file: "index.html", label: "Home" },
+  { file: "contractor-guide.html", label: "Contractor Guide" },
+  { file: "business-setup.html", label: "Build the Business" },
+  { file: "partnering-and-auspicing.html", label: "Partner or Lead" },
   { file: "tender-sources.html", label: "Sources" },
   { file: "tender-watchlist.html", label: "Watchlist" },
   { file: "council-tenders.html", label: "Council" },
   { file: "queensland-tenders.html", label: "Queensland" },
   { file: "australian-tenders.html", label: "Australian" },
   { file: "first-nations-procurement.html", label: "First Nations" },
+  { file: "semi-automated-bids.html", label: "Semi-automated Bids" },
+  { file: "windemere-case-study.html", label: "Windemere Case Study" },
+  { file: "major-project-pathway.html", label: "Major-project Pathway" },
   { file: "keyword-search.html", label: "Keyword Search" },
   { file: "bid-readiness.html", label: "Bid Readiness" },
   { file: "network.html", label: "Network" },
@@ -50,7 +82,32 @@ if (toggle && navLinks) {
 
 const currentFile = window.location.pathname.split("/").pop() || "index.html";
 document.querySelectorAll(".nav-links a").forEach((link) => {
-  if (link.getAttribute("href") === currentFile) link.setAttribute("aria-current", "page");
+  if (link.getAttribute("href") === currentFile) {
+    link.setAttribute("aria-current", "page");
+    link.closest(".nav-group")?.classList.add("contains-current");
+  }
+});
+
+const navGroups = [...document.querySelectorAll(".nav-group")];
+navGroups.forEach((group) => {
+  group.addEventListener("toggle", () => {
+    if (!group.open) return;
+    navGroups.forEach((other) => {
+      if (other !== group) other.open = false;
+    });
+  });
+});
+document.addEventListener("click", (event) => {
+  if (event.target.closest(".nav-group")) return;
+  navGroups.forEach((group) => {
+    group.open = false;
+  });
+});
+document.addEventListener("keydown", (event) => {
+  if (event.key !== "Escape") return;
+  navGroups.forEach((group) => {
+    group.open = false;
+  });
 });
 
 function renderFooterPageNav() {
