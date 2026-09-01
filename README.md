@@ -87,3 +87,28 @@ Use `profiles/templates/weekly-tender-search-agent.md` as the agent brief for a 
 ## Public Boundary
 
 This lab is an information and preparation surface, not legal, financial or procurement advice. Every tender should be checked on the live official portal before anyone spends serious time preparing a response.
+
+This workbench does not establish eligibility, partner assent, authority, capability, site control or bid readiness. These must be checked for each tender. It is not an official tender listing or a tender response.
+
+<!-- github-organisation:start -->
+
+## Project links and history
+
+- First substantive build: 4 July 2026.
+- GitHub repository: [straddie-tenders-lab](https://github.com/auraofintelligence/straddie-tenders-lab).
+- Public site: [visit the public site](https://auraofintelligence.github.io/straddie-tenders-lab/).
+
+## Related public projects
+
+Each link below reflects an evidenced family, lineage or direct connection. This project has 6 relevant public connections.
+
+### Funding, procurement and project-readiness workbenches
+
+- [community-club-builder-sandy-sports](https://github.com/auraofintelligence/community-club-builder-sandy-sports) - [public page](https://auraofintelligence.github.io/community-club-builder-sandy-sports/) - explicit cross-reference, shared tooling suite.
+- [legal-memory-workbench](https://github.com/auraofintelligence/legal-memory-workbench) - [public page](https://auraofintelligence.github.io/legal-memory-workbench/) - shared tooling suite.
+- [moreton-bay-autonomous-mobility](https://github.com/auraofintelligence/moreton-bay-autonomous-mobility) - [public page](https://auraofintelligence.github.io/moreton-bay-autonomous-mobility/) - explicit cross-reference, shared tooling suite.
+- [ready-set-co-op-trust-hub](https://github.com/auraofintelligence/ready-set-co-op-trust-hub) - [public page](https://auraofintelligence.github.io/ready-set-co-op-trust-hub/) - shared tooling suite.
+- [stradbroke-grants-lab](https://github.com/auraofintelligence/stradbroke-grants-lab) - [public page](https://auraofintelligence.github.io/stradbroke-grants-lab/) - explicit cross-reference, shared tooling suite.
+- [windemere-skate-bowl-tender-workspace](https://github.com/auraofintelligence/windemere-skate-bowl-tender-workspace) - [public page](https://auraofintelligence.github.io/windemere-skate-bowl-tender-workspace/) - explicit cross-reference, shared tooling suite.
+
+<!-- github-organisation:end -->
