@@ -711,8 +711,8 @@ window.STRADDIE_TENDERS_DATA = {
     ]
   },
   "data/tender-timeline.json": {
-    "generated_at": "2026-08-24",
-    "next_scan_due": "2026-08-31",
+    "generated_at": "2026-09-07",
+    "next_scan_due": "2026-09-14",
     "scan_cadence": "weekly",
     "pipeline_contract": {
       "name": "straddie-tender-timeline-v1",
@@ -731,7 +731,7 @@ window.STRADDIE_TENDERS_DATA = {
         "source_key": "redland-current-upcoming",
         "open_date": "tbc",
         "close_date": "tbc",
-        "last_checked": "2026-08-24",
+        "last_checked": "2026-09-07",
         "summary": "Weekly check lane for current and upcoming Redland City Council tenders, VendorPanel pathways and awarded contract learning.",
         "pipeline_tags": [
           "grants",
@@ -751,7 +751,7 @@ window.STRADDIE_TENDERS_DATA = {
         "source_key": "redland-current-upcoming",
         "open_date": "tbc",
         "close_date": "2026-08-14",
-        "last_checked": "2026-08-24",
+        "last_checked": "2026-09-07",
         "summary": "Redland City Council seeks a principal contractor for park upgrade works at various locations across Redland City. Tenderers can tender for one or more package and documents are available through VendorPanel.",
         "pipeline_tags": [
           "events",
@@ -769,7 +769,7 @@ window.STRADDIE_TENDERS_DATA = {
         "source_key": "redland-current-upcoming",
         "open_date": "tbc",
         "close_date": "2026-08-06",
-        "last_checked": "2026-08-24",
+        "last_checked": "2026-09-07",
         "summary": "Redland City Council listed a head contractor tender for footpath renewals and expansions at Capalaba, Victoria Point and Ormiston separable portions. The listed closing date has passed.",
         "pipeline_tags": [
           "ledger",
@@ -788,7 +788,7 @@ window.STRADDIE_TENDERS_DATA = {
         "source_key": "redland-current-upcoming",
         "open_date": "tbc",
         "close_date": "2026-08-06",
-        "last_checked": "2026-08-24",
+        "last_checked": "2026-09-07",
         "summary": "Redland City Council listed a principal contractor tender for design and construction of a skate park at Windemere Road Park, Alexandra Hills. The listed 2:00 pm 6 August 2026 close has passed.",
         "pipeline_tags": [
           "events",
@@ -808,7 +808,7 @@ window.STRADDIE_TENDERS_DATA = {
         "source_key": "redland-current-upcoming",
         "open_date": "tbc",
         "close_date": "2026-07-13",
-        "last_checked": "2026-08-24",
+        "last_checked": "2026-09-07",
         "summary": "Redland City Council awarded the Shade Sail Lions Boulevard Park, Russell Island contract to The Landscape Construction Company Pty Ltd on 6 August 2026 for $235,680.50 GST inclusive.",
         "pipeline_tags": [
           "events",
@@ -819,21 +819,21 @@ window.STRADDIE_TENDERS_DATA = {
       },
       {
         "id": "redland-pdg-43883-1-revetment-wall-stabilisation-raby-bay",
-        "title": "PDG-43883-1 Design and Construct Revetment Wall Stabilisation - Sternlight Court Cleveland (Raby Bay)",
+        "title": "PDG-46883 Sternlight Court Revetment Wall Stabilisation (Raby Bay)",
         "level": "council",
         "level_label": "Redland City Council",
-        "status": "closed",
+        "status": "awarded",
         "source_key": "redland-current-upcoming",
         "open_date": "tbc",
         "close_date": "2026-07-06",
-        "last_checked": "2026-08-24",
-        "summary": "Redland City Council seeks a principal contractor for design and construction of revetment wall stabilisation works at Sternlight Court, Cleveland. Tender documents are available through VendorPanel.",
+        "last_checked": "2026-09-07",
+        "summary": "Redland City Council awarded the Sternlight Court Revetment Wall Stabilisation Raby Bay contract to Piletech Pty Ltd on 27 August 2026 for $2,202,470.32 GST inclusive.",
         "pipeline_tags": [
           "ledger",
           "resilience",
           "digital-twin"
         ],
-        "next_action": "Do not treat as open. Use the record for coastal works capability mapping and future revetment or erosion-related procurement learning."
+        "next_action": "Do not treat as open. Use the award as a learning record for coastal stabilisation, marine-adjacent civil works, likely prequalification, incumbent mapping and future revetment procurement."
       },
       {
         "id": "redland-pdg-43894-1-principal-cycle-network-projects",
@@ -844,7 +844,7 @@ window.STRADDIE_TENDERS_DATA = {
         "source_key": "redland-current-upcoming",
         "open_date": "tbc",
         "close_date": "2026-06-29",
-        "last_checked": "2026-08-24",
+        "last_checked": "2026-09-07",
         "summary": "Redland City Council awarded the Principal Cycle Network separable packages on 11 August 2026: SP1 Old Cleveland Way Capalaba, SP2 Windemere Road Alexandra Hills and SP3 Moreton Bay Cycleway Torquay Road Redland Bay, all to Queensland Civil Group Pty Ltd.",
         "pipeline_tags": [
           "ledger",
@@ -858,18 +858,38 @@ window.STRADDIE_TENDERS_DATA = {
         "title": "EOI000006 Lease of German Church Road Quarry and Fisherman's No. 1 Quarry",
         "level": "council",
         "level_label": "Redland City Council",
-        "status": "closing-soon",
+        "status": "closed",
         "source_key": "redland-current-upcoming",
         "open_date": "2026-07-24",
         "close_date": "2026-08-28",
-        "last_checked": "2026-08-24",
+        "last_checked": "2026-09-07",
         "summary": "Redland City Council seeks expressions of interest from suitably qualified and experienced operators to lease and operate German Church Road Quarry and Fisherman's No. 1 Quarry. Council lists VendorPanel reference VP518743 and a 2:00 pm 28 August 2026 close.",
         "pipeline_tags": [
           "ledger",
           "resilience",
           "mineral-moonshots"
         ],
-        "next_action": "Check the VendorPanel EOI pack, quarry operating requirements, approvals, insurance and local supplier or partner fit urgently before the 2:00 pm 28 August 2026 close."
+        "next_action": "Do not treat as open. Keep as a learning record for quarry lease operation, approvals, insurance, local supplier fit and future resource-recovery or materials pathways."
+      },
+      {
+        "id": "redland-pdg-46661-william-taylor-recreational-precinct",
+        "title": "PDG-46661 Construction and Upgrade of Recreational Precinct: William Taylor Memorial Sportsfield, Thorneside",
+        "level": "council",
+        "level_label": "Redland City Council",
+        "status": "open",
+        "source_key": "redland-current-upcoming",
+        "open_date": "tbc",
+        "close_date": "2026-10-07",
+        "last_checked": "2026-09-07",
+        "summary": "Redland City Council is seeking tenders for construction and upgrade of recreational precinct works at William Taylor Memorial Sportsfield, including skatepark, BMX track, courts, amenities, pathways, shelters, furniture and lighting.",
+        "pipeline_tags": [
+          "events",
+          "noticeboard",
+          "resilience",
+          "digital-twin",
+          "aura"
+        ],
+        "next_action": "Check the VendorPanel tender pack, site constraints, licence and insurance needs, delivery history, local subcontractor fit and whether this is a lead, partner, subcontract or learning-only opportunity."
       },
       {
         "id": "redland-pdg-41634-1-drainage-kerb-concrete-2026-27",
@@ -880,7 +900,7 @@ window.STRADDIE_TENDERS_DATA = {
         "source_key": "redland-current-upcoming",
         "open_date": "tbc",
         "close_date": "2026-08-24",
-        "last_checked": "2026-08-24",
+        "last_checked": "2026-09-07",
         "summary": "Redland City Council listed a head contractor tender to complete identified civil works before road resurfacing works commence. The listed 2:00 pm 24 August 2026 close has passed.",
         "pipeline_tags": [
           "ledger",
@@ -899,7 +919,7 @@ window.STRADDIE_TENDERS_DATA = {
         "source_key": "qtenders",
         "open_date": "tbc",
         "close_date": "tbc",
-        "last_checked": "2026-08-24",
+        "last_checked": "2026-09-07",
         "summary": "Queensland Government forward procurement pipeline lists a Queensland Health Assets and Infrastructure construction program for Redland Critical Infrastructure, with release to market estimated for July to December 2026. The pipeline is indicative only and is not an open tender.",
         "pipeline_tags": [
           "ledger",
@@ -917,7 +937,7 @@ window.STRADDIE_TENDERS_DATA = {
         "source_key": "qtenders",
         "open_date": "tbc",
         "close_date": "tbc",
-        "last_checked": "2026-08-24",
+        "last_checked": "2026-09-07",
         "summary": "Weekly QTenders, eTender and Queensland supplier search lane for Minjerribah, Redland, transport, tourism, environment, resilience, digital and community service terms.",
         "pipeline_tags": [
           "digital-twin",
@@ -941,7 +961,7 @@ window.STRADDIE_TENDERS_DATA = {
         "source_key": "gumpi-ferry-upgrade",
         "open_date": "tbc",
         "close_date": "tbc",
-        "last_checked": "2026-08-24",
+        "last_checked": "2026-09-07",
         "summary": "TMR says planning is underway for the Dunwich (Gumpi) Ferry Terminal Upgrade at Junner Street, with concept design consultation closed and the business case expected in late 2026. Planning is expected to be completed in 2027.",
         "pipeline_tags": [
           "digital-twin",
@@ -961,7 +981,7 @@ window.STRADDIE_TENDERS_DATA = {
         "source_key": "austender-current-atm",
         "open_date": "tbc",
         "close_date": "tbc",
-        "last_checked": "2026-08-24",
+        "last_checked": "2026-09-07",
         "summary": "Weekly AusTender lane for federal opportunities and panels that could matter to local suppliers, partners or capability-building pipelines.",
         "pipeline_tags": [
           "grants",
@@ -985,7 +1005,7 @@ window.STRADDIE_TENDERS_DATA = {
         "source_key": "austender-current-atm",
         "open_date": "2026-08-13",
         "close_date": "2026-09-18",
-        "last_checked": "2026-08-24",
+        "last_checked": "2026-09-07",
         "summary": "National Indigenous Australians Agency seeks a national, independent Indigenous business verification service and related functions to support Indigenous Procurement Policy reforms, including strengthened eligibility criteria and trusted information on Indigenous Enterprises.",
         "pipeline_tags": [
           "ledger",
@@ -1002,7 +1022,7 @@ window.STRADDIE_TENDERS_DATA = {
         "source_key": "niaa-indigenous-procurement",
         "open_date": "tbc",
         "close_date": "tbc",
-        "last_checked": "2026-08-24",
+        "last_checked": "2026-09-07",
         "summary": "Policy and opportunity watch for Indigenous procurement settings, Queensland Procurement Policy 2026 participation context and permission-sensitive partnership readiness.",
         "pipeline_tags": [
           "ledger",
